@@ -25,7 +25,7 @@
     </a>
 
     @if(has_nav_menu('header_menu_2'))
-        @php wp_nav_menu(array( 'menu' => 'Primary Navigation' ) ) @endphp
+        @php wp_nav_menu(array( 'menu' => 'Header Menu 2' ) ) @endphp
     @endif
 
     @if(has_nav_menu('primary_navigation'))
