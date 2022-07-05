@@ -30,4 +30,29 @@ class App extends Controller
         }
         return get_the_title();
     }
+
+    public function logo()
+    {
+        return get_field('logo', 'options');
+    }
+
+    public function tiktok()
+    {
+        return get_field('tiktok_link', 'options');
+    }
+    
+    public function youtube()
+    {
+        return get_field('youtube_link', 'options');
+    }
+
+    public function instagram()
+    {
+        return get_field('instagram_link', 'options');
+    }
+
+    public function twitter()
+    {
+        return get_field('twitter_link', 'options');
+    }
 }
