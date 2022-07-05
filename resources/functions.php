@@ -90,3 +90,16 @@ Container::getInstance()
             'view' => require dirname(__DIR__).'/config/view.php',
         ]);
     }, true);
+
+    add_filter('use_block_editor_for_post', '__return_false', 10);
+
+    if( function_exists('acf_add_options_page') ) {
+	
+        acf_add_options_page(array(
+            'page_title' 	=> 'Theme General Settings',
+            'menu_title'	=> 'Theme Settings',
+            'menu_slug' 	=> 'theme-general-settings',
+            'capability'	=> 'edit_posts',
+            'redirect'		=> false
+        )); 
+    }
