@@ -24,9 +24,7 @@
         @endif
     </a>
 
-    @if(has_nav_menu('header_menu_2'))
-        @php wp_nav_menu(array( 'menu' => 'Header Menu 2' ) ) @endphp
-    @endif
+    @php wp_nav_menu(array( 'menu' => 'Header Menu 2' ) ) @endphp
 
     @if(has_nav_menu('primary_navigation'))
         <button class="navbar-toggler" id="navbarToggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars"></i> <span>Menu</span></button>
@@ -48,6 +46,6 @@
             ) ) @endphp
         @endif
 
-
+        @php wp_nav_menu(array( 'menu' => 'Header Menu 2' ) ) @endphp
     </div>
 </div>
