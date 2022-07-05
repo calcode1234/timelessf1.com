@@ -241,8 +241,8 @@ function quizzes_post_type() {
  
 add_action( 'init', 'quizzes_post_type', 0 );
 
-add_filter('use_block_editor_for_post_type', 'prefix_disable_gutenberg', 10, 2);
-function prefix_disable_gutenberg($current_status, $post_type)
+add_filter('use_block_editor_for_post_type', 'prefix_disable_gutenberg_two', 10, 2);
+function prefix_disable_gutenberg_two($current_status, $post_type)
 {
     if ($post_type === 'post' || $post_type === 'quizzes') return false;
     return $current_status;
