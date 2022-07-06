@@ -13,6 +13,7 @@
     &#menu-header-menu-2 {
       @extend .d-lg-flex;
       @extend .flex-lg-row;
+      @extend .align-items-lg-center;
       @extend .mb-lg-0;
 
       list-style-type: none;

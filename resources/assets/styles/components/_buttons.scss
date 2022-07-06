@@ -1,6 +1,7 @@
 .btn {
+  @extend .text-white;
+
   padding: 15px;
   background: theme-color("secondary");
-  color: theme-color("white");
   border-radius: 15px;
 }
