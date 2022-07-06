@@ -51,7 +51,7 @@
         @endif
     </section>
 
-    <section id="newsletter" class="section secondary-bg">
+    <section id="newsletter" class="section bg-secondary">
         <h2>@php echo esc_html('Subscribe to the newsletter') @endphp</h2>
         <p>@php echo esc_html('Mailchimp form here.') @endphp</p>
     </section>
