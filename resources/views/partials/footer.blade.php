@@ -1,5 +1,5 @@
 <div id="site-footer" role="contentinfo" class="section">
-    <div class="container">
+    <div class="container section">
         @php wp_nav_menu(array( 'menu' => 'Footer Menu' ) ) @endphp
     </div>
 </div>
