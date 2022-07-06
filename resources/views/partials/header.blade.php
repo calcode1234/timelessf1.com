@@ -6,7 +6,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row d-flex justify-content-center">
         @if(has_nav_menu('primary_navigation'))
             <div class="col-3 d-lg-flex align-items-lg-center d-none">
               <nav class="navbar navbar-expand-md bg-faded">
