@@ -8,7 +8,7 @@
 
         <div class="row">
         @if(has_nav_menu('primary_navigation'))
-            <div class="col-3 d-lg-block d-none">
+            <div class="col-3 d-lg-flex align-items-lg-center d-none">
               <nav class="navbar navbar-expand-md bg-faded">
                   @php wp_nav_menu(array(
                       'menu'    => 'Primary Navigation', 
@@ -36,7 +36,7 @@
           </a>
         </div>
 
-        <div class="col-3 d-lg-block d-none">
+        <div class="col-3 d-lg-flex align-items-lg-center d-none">
             @php wp_nav_menu(array( 'menu' => 'Header Menu 2' ) ) @endphp
         </div>
 

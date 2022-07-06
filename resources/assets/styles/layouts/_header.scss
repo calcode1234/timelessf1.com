@@ -1,7 +1,29 @@
-.banner .nav li {
-  @extend .nav-item;
-}
+#site-header {
+  ul {
+    li {
+      a {
+        @extend .font-weight-bold;
+      }
 
-.banner .nav a {
-  @extend .nav-link;
+      &.btn-link {
+        @extend .btn;
+      }
+    }
+
+    &#menu-header-2 {
+      @extend .d-lg-flex;
+      @extend .flex-lg-row;
+      @extend .mb-lg-0;
+
+      list-style-type: none;
+
+      li {
+        &:first-child {
+          a {
+            padding: 0.5rem 1rem;
+          }
+        }
+      }
+    }
+  }
 }
