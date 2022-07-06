@@ -14,6 +14,25 @@
       }
     }
 
+    &.social {
+      @extend .d-flex;
+      @extend .justify-content-center;
+
+      list-style-type: none;
+
+      li {
+        padding: 0.5rem 1rem;
+
+        a {
+          @extend .text-secondary;
+
+          i {
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+
     &#menu-header-menu-2 {
       @extend .d-lg-flex;
       @extend .flex-lg-row;
