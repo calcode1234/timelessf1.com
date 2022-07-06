@@ -1,4 +1,12 @@
 #site-header {
+  button {
+    &.navbar-toggler {
+      i {
+        padding-right: 0.5rem;
+      }
+    }
+  }
+
   ul {
     li {
       a {
