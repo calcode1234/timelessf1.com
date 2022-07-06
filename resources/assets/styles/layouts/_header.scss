@@ -7,6 +7,10 @@
 
       &.btn-link {
         @extend .btn;
+
+        a {
+          @extend .text-white;
+        }
       }
     }
 
