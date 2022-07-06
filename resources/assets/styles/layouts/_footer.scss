@@ -1,0 +1,24 @@
+#site-footer {
+  ul {
+    @extend .d-flex;
+    @extend .flex-lg-row;
+    @extend .flex-column;
+    @extend .justify-content-lg-center;
+    @extend .align-items-center;
+    @extend .mb-0;
+
+    list-style-type: none;
+
+    li {
+      a {
+        @extend .font-weight-bold;
+
+        padding: 0.5rem 1rem;
+
+        @include media-breakpoint-down(md) {
+          padding: 0.5rem 0;
+        }
+      }
+    }
+  }
+}
