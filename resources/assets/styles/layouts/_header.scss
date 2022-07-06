@@ -8,6 +8,8 @@
   }
 
   ul {
+    list-style-type: none;
+
     li {
       a {
         @extend .font-weight-bold;
@@ -52,6 +54,7 @@
 
     &#menu-header-menu-4 {
       @extend .d-flex;
+      @extend .flex-lg-row;
       @extend .flex-column;
       @extend .text-center;
 
