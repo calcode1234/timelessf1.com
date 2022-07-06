@@ -9,10 +9,13 @@
 
   ul {
     li {
-      @extend .text-center;
-
       a {
         @extend .font-weight-bold;
+
+        @include media-breakpoint-down(md) {
+          text-align: center;
+          padding: 0.5rem 0;
+        }
       }
 
       &.btn-link {
@@ -43,29 +46,19 @@
       }
     }
 
-    &.menu {
+    &#menu-header-menu-3 {
+      padding-top: 1.5rem;
+    }
+
+    &#menu-header-menu-4 {
       @extend .d-flex;
-      @extend .flex-lg-row;
       @extend .flex-column;
-      @extend .align-items-lg-center;
-      @extend .mb-lg-0;
+      @extend .text-center;
 
       list-style-type: none;
 
       li {
-        a {
-          @include media-breakpoint-down(md) {
-            padding: 0.5rem 0;
-          }
-        }
-
-        &:first-child {
-          a {
-            @include media-breakpoint-up(lg) {
-              padding: 0.5rem 1rem;
-            }
-          }
-        }
+        padding: 0.5rem 0;
       }
     }
   }
