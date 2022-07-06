@@ -2,13 +2,15 @@
   button {
     &.navbar-toggler {
       i {
-        padding-right: 0.5rem;
+        padding-right: 1rem;
       }
     }
   }
 
   ul {
     li {
+      @extend .text-center;
+
       a {
         @extend .font-weight-bold;
       }
@@ -41,18 +43,27 @@
       }
     }
 
-    &#menu-header-menu-2 {
-      @extend .d-lg-flex;
+    &.menu {
+      @extend .d-flex;
       @extend .flex-lg-row;
+      @extend .flex-column;
       @extend .align-items-lg-center;
       @extend .mb-lg-0;
 
       list-style-type: none;
 
       li {
+        a {
+          @include media-breakpoint-down(md) {
+            padding: 0.5rem 0;
+          }
+        }
+
         &:first-child {
           a {
-            padding: 0.5rem 1rem;
+            @include media-breakpoint-up(lg) {
+              padding: 0.5rem 1rem;
+            }
           }
         }
       }
