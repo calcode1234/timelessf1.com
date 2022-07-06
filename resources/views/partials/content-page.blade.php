@@ -8,13 +8,26 @@
     @php $query_title = get_the_title( get_option('page_for_posts', true) ) @endphp
 
     <section id="articles" class="section">
-        <h2>@php echo $query_title @endphp</h2>
-        @php echo '<a href="'.esc_url(get_permalink( get_option( 'page_for_posts' ) )).'">'.esc_html__( 'Browse all articles' ) .'</a>' @endphp
-        @if($query->have_posts())
+        <div class="container">
+            <div class="row">
+                <div class="col-6 d-flex align-items-center">
+                    <h2 class="mb-0"><strong>@php echo $query_title @endphp</strong></h2>
+                </div>
+                <div class="col-6 d-flex justify-content-end">
+                    @php echo '<a href="'.esc_url(get_permalink( get_option( 'page_for_posts' ) )).'" class="btn" role="button">'.esc_html__( 'Browse all articles' ) .'</a>' @endphp
+                </div>
+            </div>
 
-        @else
-            <p>@php echo esc_html('There are currently no posts to show.') @endphp</p>
-        @endif
+            <div class="row">
+                @if($query->have_posts())
+
+                @else
+                    <div class="col-12">
+                        <p class="section">@php echo esc_html('There are currently no posts to show.') @endphp</p>
+                    </div>
+                @endif
+            </div>
+        </div>
     </section>
 
     @php $video_args = array(
@@ -25,13 +38,26 @@
     @php $videos_query = new WP_Query( $video_args ) @endphp
 
     <section id="videos" class="section">
-        <h2>Videos</h2>
-        @php echo '<a href="'.esc_url(get_permalink( get_option( 'page_for_posts' ) )).'">'.esc_html__( 'Browse all videos' ) .'</a>' @endphp
-        @if($videos_query->have_posts())
+        <div class="container">
+            <div class="row">
+                <div class="col-6 d-flex align-items-center">
+                    <h2 class="mb-0"><strong>Videos</strong></h2>
+                </div>
+                <div class="col-6 d-flex justify-content-end">
+                    @php echo '<a href="'.esc_url(get_permalink( get_option( 'page_for_posts' ) )).'" class="btn" role="button">'.esc_html__( 'Browse all videos' ) .'</a>' @endphp
+                </div>
+            </div>
 
-        @else
-            <p>@php echo esc_html('There are currently no videos to show.') @endphp</p>
-        @endif
+            <div class="row">
+                @if($videos_query->have_posts())
+
+                @else
+                    <div class="col-12">
+                        <p class="section">@php echo esc_html('There are currently no videos to show.') @endphp</p>
+                    </div>
+                @endif
+            </div>
+        </div>
     </section>
 
     @php $quiz_args = array(
@@ -42,17 +68,41 @@
     @php $quizzes_query = new WP_Query( $quiz_args ) @endphp
 
     <section id="quizzes" class="section">
-        <h2>Quizzes</h2>
-        @php echo '<a href="'.esc_url(get_permalink( get_option( 'page_for_posts' ) )).'">'.esc_html__( 'Browse all quizzes' ) .'</a>' @endphp
-        @if($quizzes_query->have_posts())
+        <div class="container">
+            <div class="row">
+                <div class="col-6 d-flex align-items-center">
+                    <h2><strong>Quizzes</strong></h2>
+                </div>
+                <div class="col-6 d-flex justify-content-end">
+                @php echo '<a href="'.esc_url(get_permalink( get_option( 'page_for_posts' ) )).'" class="btn" role="button">'.esc_html__( 'Browse all quizzes' ) .'</a>' @endphp
+                </div>
+            </div>
 
-        @else
-            <p>@php echo esc_html('There are currently no quizzes to show.') @endphp</p>
-        @endif
+            <div class="row">
+                @if($quizzes_query->have_posts())
+
+                @else
+                    <div class="col-12">
+                        <p class="section">@php echo esc_html('There are currently no quizzes to show.') @endphp</p>
+                    </div>
+                @endif
+            </div>
+        </div>
     </section>
 
     <section id="newsletter" class="section bg-secondary">
-        <h2>@php echo esc_html('Subscribe to the newsletter') @endphp</h2>
-        <p>@php echo esc_html('Mailchimp form here.') @endphp</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="mb-0 text-white"><strong>@php echo esc_html('Subscribe to the newsletter') @endphp</strong></h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <p class="mb-0 text-white section">@php echo esc_html('Mailchimp form here.') @endphp</p>
+                </div>
+            </div>
+        </div>
     </section>
 @endif
