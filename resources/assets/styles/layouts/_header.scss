@@ -64,5 +64,20 @@
         padding: 0.5rem 0;
       }
     }
+
+    &#menu-header-menu-2 {
+      display: flex;
+      align-items: center;
+
+      li {
+        &:first-child {
+          a {
+            @include media-breakpoint-up(lg) {
+              padding: 0.5rem 1rem;
+            }
+          }
+        }
+      }
+    }
   }
 }
