@@ -37,7 +37,7 @@
       list-style-type: none;
 
       li {
-        padding: 0.5rem 0;
+        padding: 0 1rem;
 
         a {
           @extend .text-white;
@@ -62,7 +62,7 @@
       list-style-type: none;
 
       li {
-        padding: 0 1rem;
+        padding: 0.5rem 0;
       }
     }
 
