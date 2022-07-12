@@ -15,15 +15,15 @@
 
                         <div class="col-lg-8 col-12 py-3">
                             <div class="grid bg-white py-3 mx-3">
-                                <h1 class="h5 text-secondary pt-3 pr-3 pl-3 pb-0"><strong>{{__('Article') }}</strong></h1>
-                                <h2 class="p-3"><strong>@php the_title() @endphp</strong></h2>
+                                <h1 class="h5 text-secondary pt-3 pr-5 pl-5 pb-0"><strong>{{__('Article') }}</strong></h1>
+                                <h2 class="h1 py-3 px-5"><strong>@php the_title() @endphp</strong></h2>
                                 @if(has_post_thumbnail())
                                     @php $attachment_id = get_post_thumbnail_id() @endphp
                                     @php $alt = get_post_meta( $attachment_id, '_wp_attachment_image_alt', true ) @endphp
                                     <img src="@php the_post_thumbnail_url() @endphp" alt="@php echo $alt @endphp" width="100%" height="auto">
                                 @endif
-                                <div class="text-info pt-3 pr-3 pl-3 pb-0"><strong>@php the_excerpt() @endphp</strong></div>
-                                <div class="m-3"><a href="@php the_permalink() @endphp" class="btn" role="button" aria-label="Read more about the @php the_title() @endphp post">{{__('Read more') }}</a></div>
+                                <div class="text-info pt-5 pr-3 pl-5 pb-2"><strong>@php the_excerpt() @endphp</strong></div>
+                                <div class="my-3 mx-5"><a href="@php the_permalink() @endphp" class="btn" role="button" aria-label="Read more about the @php the_title() @endphp post">{{__('Read more') }}</a></div>
                             </div>
                         </div>
                     @endwhile
@@ -46,8 +46,8 @@
                             <div class="row">
                                 <div class="col-12 py-3">
                                     <div class="grid bg-white py-3 mx-3">
-                                        <h2 class="h5 text-secondary pt-3 pr-3 pl-3 pb-0"><strong>{{__('Video') }}</strong></h2>
-                                        <h2 class="p-3"><strong>@php the_title() @endphp</strong></h2>
+                                        <h2 class="h5 text-secondary pt-3 pr-4 pl-4 pb-0"><strong>{{__('Video') }}</strong></h2>
+                                        <h2 class="h4 py-3 px-4"><strong>@php the_title() @endphp</strong></h2>
                                         @if(has_post_thumbnail())
                                             @php $attachment_id = get_post_thumbnail_id() @endphp
                                             @php $alt = get_post_meta( $attachment_id, '_wp_attachment_image_alt', true ) @endphp
@@ -76,8 +76,8 @@
                             <div class="row">
                                 <div class="col-12 py-3">
                                     <div class="grid bg-white py-3 mx-3">
-                                        <h2 class="h5 text-secondary pt-3 pr-3 pl-3 pb-0"><strong>{{__('Quiz') }}</strong></h2>
-                                        <h2 class="p-3"><strong>@php the_title() @endphp</strong></h2>
+                                        <h2 class="h5 text-secondary pt-3 pr-4 pl-4 pb-0"><strong>{{__('Quiz') }}</strong></h2>
+                                        <h2 class="h4 py-3 px-4"><strong>@php the_title() @endphp</strong></h2>
                                         @if(has_post_thumbnail())
                                             @php $attachment_id = get_post_thumbnail_id() @endphp
                                             @php $alt = get_post_meta( $attachment_id, '_wp_attachment_image_alt', true ) @endphp
