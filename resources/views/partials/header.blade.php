@@ -10,20 +10,20 @@
             <div class="row d-flex justify-content-center">
             @if(has_nav_menu('primary_navigation'))
                 <div class="col-3 d-lg-flex align-items-lg-center d-none">
-                <nav class="navbar navbar-expand-md bg-faded">
-                    @php wp_nav_menu(array(
-                        'menu'    => 'Primary Navigation', 
-                        'theme_location'    => 'primary_navigation',
-                        'depth'             => 2,
-                        'container'         => false,
-                        'container_class'   => 'collapse navbar-collapse',
-                        'container_id'      => 'primary_navigation',
-                        'container_aria_label' => 'primary_navigation',
-                        'menu_class'        => 'navbar-nav',
-                        'fallback_cb'       => 'bs4navwalker::fallback',
-                        'walker'            => new \App\wp_bootstrap4_navwalker()
-                    ) ) @endphp
-                </nav>
+                    <nav class="navbar navbar-expand-md bg-faded">
+                        @php wp_nav_menu(array(
+                            'menu'    => 'Primary Navigation', 
+                            'theme_location'    => 'primary_navigation',
+                            'depth'             => 2,
+                            'container'         => false,
+                            'container_class'   => 'collapse navbar-collapse',
+                            'container_id'      => 'primary_navigation',
+                            'container_aria_label' => 'primary_navigation',
+                            'menu_class'        => 'navbar-nav',
+                            'fallback_cb'       => 'bs4navwalker::fallback',
+                            'walker'            => new \App\wp_bootstrap4_navwalker()
+                        ) ) @endphp
+                    </nav>
                 </div>
             @endif
 
@@ -73,7 +73,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <ul class="social section">
+                    <ul class="social">
                         @if($tiktok)
                             <li>
                                 @php $tiktok_url  = $tiktok['url'] @endphp
