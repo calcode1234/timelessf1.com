@@ -2,7 +2,7 @@
 <html {!! get_language_attributes() !!}>
   @include('partials.head')
   <body @php body_class() @endphp>
-    <div class="container bg-white">
+    <div class="container bg-white px-0">
       @php do_action('get_header') @endphp
       @include('partials.header')
       <div class="wrap" role="document">
