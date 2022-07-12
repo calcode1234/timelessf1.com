@@ -1,5 +1,5 @@
-<div id="site-header" class="section" role="header">
-    <div id="top" class="bg-primary">
+<div id="site-header" role="header">
+    <div id="top" class="section bg-primary">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-6">
@@ -69,7 +69,7 @@
         </div>
     </div>
 
-    <div id="bottom" class="bg-secondary">
+    <div id="bottom" class="section bg-secondary">
         <div class="container">
             <div class="row">
                 <div class="col-12">
