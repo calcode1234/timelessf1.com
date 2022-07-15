@@ -40,10 +40,12 @@
         padding: 0 1rem;
 
         a {
-          color: theme-color("white");
-
           @include media-breakpoint-up(lg) {
             color: theme-color("secondary");
+          }
+
+          @include media-breakpoint-down(md) {
+            color: theme-color("white");
           }
 
           i {
@@ -87,10 +89,12 @@
   }
 
   #bottom {
-    background: theme-color("secondary");
-
     @include media-breakpoint-up(lg) {
       background: theme-color("white");
+    }
+
+    @include media-breakpoint-down(md) {
+      background: theme-color("secondary");
     }
   }
 }
