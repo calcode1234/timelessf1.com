@@ -2,6 +2,11 @@
     <section id="latest" class="bg-light">
         <div class="col-lg-10 col-12 mx-auto py-lg-5 py-3">
             <div class="row">
+                <div class="col-lg-10 col-12 mx-auto">
+                    @include('partials.searchform')
+                </div>
+            </div>
+            <div class="row">
                 @php $args = array(
                     'post_type' => 'post',
                     'posts_per_page' => 1
