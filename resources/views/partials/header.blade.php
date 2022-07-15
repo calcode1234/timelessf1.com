@@ -69,7 +69,7 @@
         </div>
     </div>
 
-    <div id="bottom" class="section bg-white">
+    <div id="bottom" class="section">
         <div class="container">
             <div class="row">
                 <div class="col-12">
