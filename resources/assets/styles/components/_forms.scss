@@ -1,13 +1,13 @@
 form {
   input {
     &[type="search"] {
-      color: theme-color("primary");
-      border: 3px solid theme-color("primary") !important;
+      color: #000;
+      border: 3px solid theme-color("secondary") !important;
       border-radius: 40px !important;
       height: 55px;
 
       &::placeholder {
-        color: theme-color("primary");
+        color: #000;
       }
     }
   }
