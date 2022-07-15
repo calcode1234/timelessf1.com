@@ -41,11 +41,11 @@
 
         a {
           @include media-breakpoint-up(lg) {
-            color: theme-color("secondary");
+            color: theme-color("secondary") !important;
           }
 
           @include media-breakpoint-down(md) {
-            color: theme-color("white");
+            color: theme-color("white") !important;
           }
 
           i {
