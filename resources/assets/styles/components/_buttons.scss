@@ -10,7 +10,6 @@
 
   &.alternative {
     @extend .text-secondary;
-
-    background: theme-color("white");
+    @extend .bg-white;
   }
 }
