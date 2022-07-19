@@ -1,0 +1,1 @@
+<p>Adsense banner goes here</p>

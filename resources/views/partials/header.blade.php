@@ -1,12 +1,19 @@
 <div id="site-header" role="header">
-    <div id="top" class="section bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-6">
-                    <a class="screen-reader-text skip-link" href="#content">Skip to content</a>
-                </div>
+    <div id="top" class="section bg-white">
+        <div class="row">
+            <div class="col-lg-3 col-6">
+                <a class="screen-reader-text skip-link" href="#content">Skip to content</a>
             </div>
+        </div>
 
+        <div class="row">
+            <div class="col-12">
+                @include('partials.adsense')
+            </div>
+        </div>
+    </div>
+    <div id="middle" class="section bg-primary">
+        <div class="container">
             <div class="row d-flex justify-content-center">
             @if(has_nav_menu('primary_navigation'))
                 <div class="col-3 d-lg-flex align-items-lg-center d-none">

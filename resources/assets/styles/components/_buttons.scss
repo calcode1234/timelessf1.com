@@ -7,4 +7,10 @@
   padding: 15px;
   background: theme-color("secondary");
   border-radius: 15px;
+
+  &.alternative {
+    @extend .text-secondary;
+
+    background: theme-color("white");
+  }
 }
