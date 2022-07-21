@@ -30,6 +30,11 @@
                                 <option value="social">Social media</option>
                                 <option value="word">Word of mouth</option>
                             </select>
+                            <div class="select-group-append">
+                                <span class="select-group-text">
+                                    <i class="fas fa-arrow-circle-down text-primary"></i>
+                                </span>
+                            </div>
                         </div>
                         <div id="mce-responses" class="clear foot">
                             <div class="response" id="mce-error-response" style="display:none"></div>
