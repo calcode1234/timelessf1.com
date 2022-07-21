@@ -36,6 +36,21 @@
                                 </span>
                             </div>
                         </div>
+
+                        <div id="mergeRow-gdpr" class="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group my-3">
+                            <div class="content__gdpr">
+                                <label>Marketing Permissions</label>
+                                <p>Please select all the ways you would like to hear from Timeless F1:</p>
+                                <fieldset class="mc_fieldset gdprRequired mc-field-group" name="interestgroup_field">
+                                <label class="checkbox subfield" for="gdpr_98985"><input type="checkbox" id="gdpr_98985" name="gdpr[98985]" value="Y" class="av-checkbox "><span>Email</span> </label>
+                                </fieldset>
+                                <p>By ticking this box, you submit your details to Timeless F1.</p>
+                            </div>
+                            <div class="content__gdprLegal">
+                                <p>We use Mailchimp as our marketing platform. By clicking below to subscribe, you acknowledge that your information will be transferred to Mailchimp for processing. <a href="https://mailchimp.com/legal/terms" target="_blank">Learn more about Mailchimp's privacy practices here.</a></p>
+                            </div>
+                        </div>
+
                         <div id="mce-responses" class="clear foot">
                             <div class="response" id="mce-error-response" style="display:none"></div>
                                 <div class="response" id="mce-success-response" style="display:none"></div>
