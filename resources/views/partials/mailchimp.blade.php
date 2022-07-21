@@ -14,16 +14,16 @@
                         <div id="mc_embed_signup_scroll" class="p-3">
                         <h2 class="text-primary heading pb-4">{{__('Subscribe to the Newsletter') }}</h2>
                         <div class="mc-field-group">
-                            <label for="mce-NAME" class="mb-3"><strong>Name <span class="asterisk">*</span></strong></label>
+                            <label for="mce-NAME" class="my-3"><strong>Name <span class="asterisk">*</span></strong></label>
                             <input type="text" value="" name="NAME" class="required name bg-light" id="mce-NAME" placeholder="Your name...">
                         </div>
                         <div class="mc-field-group">
-                            <label for="mce-EMAIL" class="mb-3"><strong>Email  <span class="asterisk">*</span></strong>
+                            <label for="mce-EMAIL" class="my-3"><strong>Email  <span class="asterisk">*</span></strong>
                         </label>
                             <input type="email" value="" name="EMAIL" class="required email bg-light" id="mce-EMAIL" placeholder="Your email...">
                         </div>
                         <div class="mc-field-group">
-                            <label for="mce-HOW" class="mb-3"><strong>How did you find Timeless F1? <span class="asterisk">*</span></strong></label>
+                            <label for="mce-HOW" class="my-3"><strong>How did you find Timeless F1? <span class="asterisk">*</span></strong></label>
                             <select name="mce-HOW" id="mce-HOW" class="bg-light">
                                 <option value="all">Please select an option...</option>
                                 <option value="search">Search engines</option>
