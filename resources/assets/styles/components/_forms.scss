@@ -38,3 +38,49 @@ form {
     }
   }
 }
+
+#mc_embed_signup {
+  h2 {
+    font-size: 2rem !important;
+  }
+
+  form {
+    padding: 0 !important;
+  }
+
+  .mc-field-group {
+    width: 100% !important;
+    padding-bottom: 0 !important;
+
+    label {
+      font-size: 1rem;
+    }
+
+    input,
+    select {
+      color: #000;
+      border: 0 !important;
+      border-radius: 40px;
+      padding: 15px 0;
+      font-size: 1rem;
+
+      &::placeholder {
+        color: #000;
+      }
+    }
+
+    select {
+      width: 100% !important;
+      text-indent: 2%;
+      appearance: none;
+    }
+  }
+
+  #mc-embedded-subscribe-form {
+    div {
+      &.mce_inline_error {
+        margin: 1em 0 !important;
+      }
+    }
+  }
+}

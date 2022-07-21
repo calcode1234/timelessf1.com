@@ -3,10 +3,11 @@
   @extend .font-weight-bold;
   @extend .w-100;
 
-  display: inline-block;
+  display: inline-block !important;
   padding: 15px;
   background: theme-color("secondary");
-  border-radius: 15px;
+  border: 0 !important;
+  border-radius: 15px !important;
 
   &.alternative {
     @extend .text-secondary;
