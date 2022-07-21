@@ -90,6 +90,20 @@ form {
     }
   }
 
+  #mce-success-response {
+    color: theme-color("primary") !important;
+  }
+
+  div {
+    &#mce-responses {
+      margin: 0 !important;
+    }
+
+    &.response {
+      font-size: 1rem !important;
+    }
+  }
+
   #mc-embedded-subscribe-form {
     div {
       &.mce_inline_error {

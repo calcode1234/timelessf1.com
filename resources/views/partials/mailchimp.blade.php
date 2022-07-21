@@ -1,7 +1,7 @@
 <section id="mailchimp" class="bg-light">
     <div class="col-lg-10 col-12 mx-auto">
        <div class="row">
-            <div class="col-lg-8 col-12">
+            <div class="col-lg-6 col-12">
                 <!-- Begin Mailchimp Signup Form -->
                 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7_dtp.css" rel="stylesheet" type="text/css">
                 <style type="text/css">
@@ -53,7 +53,7 @@
                 <!--End mc_embed_signup-->
             </div>
 
-            <div class="col-lg-4 col-12 py-5">
+            <div class="col-lg-6 col-12 py-5">
                 <div class="row">
                     @include('partials.twitter-timeline')
                 </div>
