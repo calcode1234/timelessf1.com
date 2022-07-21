@@ -1,14 +1,16 @@
 <div id="site-header" role="header">
     <div id="top" class="section bg-white">
-        <div class="row">
-            <div class="col-lg-3 col-6">
-                <a class="screen-reader-text skip-link" href="#content">Skip to content</a>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-6">
+                    <a class="screen-reader-text skip-link" href="#content">Skip to content</a>
+                </div>
             </div>
-        </div>
 
-        <div class="row">
-            <div class="col-12">
-                @include('partials.adsense')
+            <div class="row">
+                <div class="col-12">
+                    @include('partials.adsense')
+                </div>
             </div>
         </div>
     </div>
