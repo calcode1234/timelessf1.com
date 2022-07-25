@@ -41,7 +41,7 @@
                             <div class="content__gdpr">
                                 <label><strong>Marketing Permissions</strong></label>
                                 <p>Please select all the ways you would like to hear from Timeless F1:</p>
-                                <fieldset class="mc_fieldset gdprRequired mc-field-group" name="interestgroup_field">
+                                <fieldset class="mc_fieldset gdprRequired mc-field-group mb-3" name="interestgroup_field">
                                 <label class="checkbox subfield" for="gdpr_98985"><input type="checkbox" id="gdpr_98985" name="gdpr[98985]" value="Y" class="av-checkbox required mr-3"><strong>Email</strong> </label>
                                 </fieldset>
                                 <p>By ticking this box, you submit your details to Timeless F1.</p>
