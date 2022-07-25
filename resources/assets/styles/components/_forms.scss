@@ -71,6 +71,14 @@ form {
       }
     }
 
+    input {
+      &[type="checkbox"] {
+        @extend .mr-3;
+
+        width: auto;
+      }
+    }
+
     select {
       width: 100% !important;
       text-indent: 2%;
