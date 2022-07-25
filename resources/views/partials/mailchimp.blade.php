@@ -24,7 +24,7 @@
                         </div>
                         <div class="mc-field-group">
                             <label for="mce-HOW" class="my-3"><strong>How did you find Timeless F1? <span class="asterisk">*</span></strong></label>
-                            <select name="mce-HOW" id="mce-HOW" class="bg-light">
+                            <select name="mce-HOW" id="mce-HOW" class="bg-light required">
                                 <option value="all">Please select an option...</option>
                                 <option value="search">Search engines</option>
                                 <option value="social">Social media</option>
@@ -39,10 +39,10 @@
 
                         <div id="mergeRow-gdpr" class="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group my-3">
                             <div class="content__gdpr">
-                                <label>Marketing Permissions</label>
+                                <label><strong>Marketing Permissions</strong></label>
                                 <p>Please select all the ways you would like to hear from Timeless F1:</p>
                                 <fieldset class="mc_fieldset gdprRequired mc-field-group" name="interestgroup_field">
-                                <label class="checkbox subfield" for="gdpr_98985"><input type="checkbox" id="gdpr_98985" name="gdpr[98985]" value="Y" class="av-checkbox "><span>Email</span> </label>
+                                <label class="checkbox subfield" for="gdpr_98985"><input type="checkbox" id="gdpr_98985" name="gdpr[98985]" value="Y" class="av-checkbox required mr-3"><strong>Email</strong> </label>
                                 </fieldset>
                                 <p>By ticking this box, you submit your details to Timeless F1.</p>
                             </div>
