@@ -79,7 +79,6 @@ form {
 
         display: inline-block;
         width: auto;
-        min-height: 0;
       }
     }
 
@@ -99,6 +98,12 @@ form {
         color: theme-color("primary");
         font-size: 1.5rem;
       }
+    }
+  }
+
+  fieldset {
+    &.mc-field-group {
+      min-height: 0 !important;
     }
   }
 
