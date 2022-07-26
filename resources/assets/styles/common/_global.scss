@@ -26,6 +26,16 @@ a {
 
 .heading {
   border-bottom: 3px solid theme-color("secondary");
+
+  h2 {
+    @include media-breakpoint-up(lg) {
+      margin-top: 17px;
+    }
+
+    strong {
+      padding: 15px;
+    }
+  }
 }
 
 .bg-light-blue {

@@ -115,13 +115,13 @@
 
                 @if($query->have_posts())
                     <div class="row">
-                        <div class="col-12 heading pb-4">
+                        <div class="col-12 heading">
                             <div class="row">
-                                <div class="col-lg-9 col-12 mb-lg-0 mb-3">
-                                    <h2 class="text-dark"><strong>Articles</strong></h2>
+                                <div class="col-lg-9 col-12 mb-lg-0 mb-3 pl-lg-0">
+                                    <h2><strong class="bg-info text-white">Articles</strong></h2>
                                 </div>
                                 <div class="col-lg-3 col-12">
-                                    <a href="@php echo get_permalink( get_option( 'page_for_posts' ) ) @endphp" class="btn" role="button">{{__('Browse all articles') }}</a>
+                                    <a href="@php echo get_permalink( get_option( 'page_for_posts' ) ) @endphp" class="btn mb-3" role="button">{{__('Browse all articles') }}</a>
                                 </div>
                             </div>
                         </div>
@@ -164,13 +164,13 @@
             @if($video_query->have_posts())
                 <div class="col-lg-10 col-12 mx-auto py-lg-5 py-3">
                     <div class="row">
-                        <div class="col-12 heading pb-4">
+                        <div class="col-12 heading">
                             <div class="row">
-                                <div class="col-lg-9 col-12 mb-lg-0 mb-3">
-                                    <h2 class="text-dark"><strong>Videos</strong></h2>
+                                <div class="col-lg-9 col-12 mb-lg-0 mb-3 pl-lg-0">
+                                    <h2><strong class="bg-secondary text-white">Videos</strong></h2>
                                 </div>
                                 <div class="col-lg-3 col-12">
-                                    <a href="@php echo get_post_type_archive_link( 'videos' ) @endphp" class="btn" role="button">{{__('Browse all videos') }}</a>
+                                    <a href="@php echo get_post_type_archive_link( 'videos' ) @endphp" class="btn mb-3" role="button">{{__('Browse all videos') }}</a>
                                 </div>
                             </div>
                         </div>
@@ -182,14 +182,14 @@
 
                             <div class="col-lg-4 col-12">
                                 <article class="grid bg-white my-3 py-3">
-                                    <h2 class="h5 text-white pt-3 px-lg-4 px-3 pb-0"><strong>{{__('Video') }}</strong></h2>
-                                    <h2 class="h4 text-white py-3 px-lg-4 px-3"><strong>@php the_title() @endphp</strong></h2>
+                                    <h2 class="h5 text-danger pt-3 px-lg-4 px-3 pb-0"><strong>{{__('Video') }}</strong></h2>
+                                    <h2 class="h4 text-secondary py-3 px-lg-4 px-3"><strong>@php the_title() @endphp</strong></h2>
                                     @if(has_post_thumbnail())
                                         @php $attachment_id = get_post_thumbnail_id() @endphp
                                         @php $alt = get_post_meta( $attachment_id, '_wp_attachment_image_alt', true ) @endphp
                                         <img src="@php the_post_thumbnail_url() @endphp" alt="@php echo $alt @endphp" width="100%" height="auto">
                                     @endif
-                                    <div class="my-3 mx-3"><a href="@php the_permalink() @endphp" class="btn alternative" role="button" aria-label="Watch the @php the_title() @endphp video">{{__('Watch video') }}</a></div>
+                                    <div class="my-3 mx-3"><a href="@php the_permalink() @endphp" class="btn" role="button" aria-label="Watch the @php the_title() @endphp video">{{__('Watch video') }}</a></div>
                                 </div>
                             </article>
                         @endwhile
@@ -214,13 +214,13 @@
             @if($quiz_query->have_posts())
                 <div class="col-lg-10 col-12 mx-auto py-lg-5 py-3">
                     <div class="row">
-                        <div class="col-12 heading pb-4">
+                        <div class="col-12 heading">
                             <div class="row">
-                                <div class="col-lg-9 col-12 mb-lg-0 mb-3">
-                                    <h2 class="text-dark"><strong>Quizzes</strong></h2>
+                                <div class="col-lg-9 col-12 mb-lg-0 mb-3 pl-lg-0">
+                                    <h2><strong class="bg-success text-white">Quizzes</strong></h2>
                                 </div>
                                 <div class="col-lg-3 col-12">
-                                    <a href="@php echo get_post_type_archive_link( 'quizzes' ) @endphp" class="btn" role="button">{{__('Browse all quizzes') }}</a>
+                                    <a href="@php echo get_post_type_archive_link( 'quizzes' ) @endphp" class="btn mb-3" role="button">{{__('Browse all quizzes') }}</a>
                                 </div>
                             </div>
                         </div>

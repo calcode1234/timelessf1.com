@@ -52,7 +52,7 @@
 
             @if(has_nav_menu('primary_navigation'))
                 <div class="col-6 d-lg-none d-flex justify-content-end">
-                <button class="navbar-toggler font-weight-bold d-flex align-items-center" id="navbarToggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars text-secondary"></i> <span class="text-white">Menu</span></button>
+                <button class="navbar-toggler font-weight-bold d-flex align-items-center" id="navbarToggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars text-primary"></i> <span class="text-white">Menu</span></button>
                 </div>
             @endif
             </div>
