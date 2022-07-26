@@ -49,7 +49,16 @@
         </div>
     </div>
 
-    <div id="middle" class="section">
-        
+    <div id="middle" class="col-12">
+        <div class="row">
+            <div class="bg-light-blue col-lg-6 col-12 section">
+                <div class="row">
+                    <div class="col-lg-8 col-12 mx-auto">
+                        @php wp_nav_menu(array( 'menu' => 'Footer Menu' ) ) @endphp
+                    </div>
+                </div>
+            </div>
+            <div class="bg-light col-lg-6 col-12 section"></div>
+        </div>
     </div>
 </div>
