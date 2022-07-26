@@ -24,6 +24,14 @@ a {
   }
 }
 
+h2 {
+  &.heading {
+    div.heading-background {
+      padding: 15px;
+    }
+  }
+}
+
 .heading {
   border-bottom: 3px solid theme-color("secondary");
 
@@ -32,8 +40,7 @@ a {
       margin-top: 17px;
     }
 
-    strong,
-    div.heading-background {
+    strong {
       padding: 15px;
     }
   }
