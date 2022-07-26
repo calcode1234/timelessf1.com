@@ -20,7 +20,7 @@
 
                         <div class="col-lg-8 col-12 py-3">
                             <article class="grid bg-white py-3 mx-lg-3 mx-0">
-                                <h1 class="h5 text-danger pt-3 px-lg-5 px-3 pb-0"><strong>{{__('Article') }}</strong></h1>
+                                <h1 class="h5 pt-3 px-lg-5 px-3 pb-0"><strong class="bg-info text-white">{{__('Article') }}</strong></h1>
                                 <h2 class="h1 text-secondary py-3 px-lg-5 px-3"><strong>@php the_title() @endphp</strong></h2>
                                 @if(has_post_thumbnail())
                                     @php $attachment_id = get_post_thumbnail_id() @endphp
@@ -51,7 +51,7 @@
                             <div class="row">
                                 <div class="col-12 py-3">
                                     <article class="grid bg-white py-3 mx-3">
-                                        <h2 class="h5 text-danger pt-3 px-lg-4 px-3 pb-0"><strong>{{__('Video') }}</strong></h2>
+                                        <h2 class="h5 pt-3 px-lg-4 px-3 pb-0"><strong class="bg-secondary text-white">{{__('Video') }}</strong></h2>
                                         <h2 class="h4 text-secondary py-3 px-lg-4 px-3"><strong>@php the_title() @endphp</strong></h2>
                                         @if(has_post_thumbnail())
                                             @php $attachment_id = get_post_thumbnail_id() @endphp
@@ -81,7 +81,7 @@
                             <div class="row">
                                 <div class="col-12 py-3">
                                     <article class="grid bg-white py-3 mx-3">
-                                        <h2 class="h5 text-danger pt-3 px-lg-4 px-3 pb-0"><strong>{{__('Quiz') }}</strong></h2>
+                                        <h2 class="h5 pt-3 px-lg-4 px-3 pb-0"><strong class="bg-success text-white">{{__('Quiz') }}</strong></h2>
                                         <h2 class="h4 text-secondary py-3 px-lg-4 px-3"><strong>@php the_title() @endphp</strong></h2>
                                         @if(has_post_thumbnail())
                                             @php $attachment_id = get_post_thumbnail_id() @endphp
@@ -133,7 +133,7 @@
 
                             <div class="col-lg-4 col-12">
                                 <article class="grid bg-white my-lg-5 my-3 py-3">
-                                    <h2 class="h5 text-danger pt-3 px-lg-4 px-3 pb-0"><strong>{{__('Article') }}</strong></h2>
+                                    <h2 class="h5 pt-3 px-lg-4 px-3 pb-0"><strong class="bg-info text-white">{{__('Article') }}</strong></h2>
                                     <h2 class="h4 text-secondary py-3 px-lg-4 px-3"><strong>@php the_title() @endphp</strong></h2>
                                     @if(has_post_thumbnail())
                                         @php $attachment_id = get_post_thumbnail_id() @endphp
@@ -182,7 +182,7 @@
 
                             <div class="col-lg-4 col-12">
                                 <article class="grid bg-white my-lg-5 my-3 py-3">
-                                    <h2 class="h5 text-danger pt-3 px-lg-4 px-3 pb-0"><strong>{{__('Video') }}</strong></h2>
+                                    <h2 class="h5 text-danger pt-3 px-lg-4 px-3 pb-0"><strong class="bg-secondary text-white">{{__('Video') }}</strong></h2>
                                     <h2 class="h4 text-secondary py-3 px-lg-4 px-3"><strong>@php the_title() @endphp</strong></h2>
                                     @if(has_post_thumbnail())
                                         @php $attachment_id = get_post_thumbnail_id() @endphp
@@ -232,7 +232,7 @@
 
                             <div class="col-lg-4 col-12">
                                 <article class="grid bg-white my-lg-5 my-3 py-3">
-                                    <h2 class="h5 text-danger pt-3 px-lg-4 px-3 pb-0"><strong>{{__('Quiz') }}</strong></h2>
+                                    <h2 class="h5 text-danger pt-3 px-lg-4 px-3 pb-0"><strong class="bg-success text-white">{{__('Quiz') }}</strong></h2>
                                     <h2 class="h4 text-secondary py-3 px-lg-4 px-3"><strong>@php the_title() @endphp</strong></h2>
                                     @if(has_post_thumbnail())
                                         @php $attachment_id = get_post_thumbnail_id() @endphp
