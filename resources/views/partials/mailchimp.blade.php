@@ -12,7 +12,7 @@
                 <div id="mc_embed_signup">
                     <form action="https://timelessf1.us18.list-manage.com/subscribe/post?u=0427094c4b99ad3f50efc8b4f&amp;id=9818640a57" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                         <div id="mc_embed_signup_scroll" class="p-3">
-                        <h2 class="text-primary heading"><div class="heading-background bg-primary text-secondary">{{__('Subscribe to the Newsletter') }}</div></h2>
+                        <h2 class="text-primary heading"><div class="heading-background bg-primary text-secondary">{{__('Subscribe') }}</div></h2>
                         <div class="mc-field-group">
                             <label for="mce-NAME" class="my-3"><strong>Name <span class="asterisk">*</span></strong></label>
                             <input type="text" value="" name="NAME" class="required name" id="mce-NAME" placeholder="Your name...">
