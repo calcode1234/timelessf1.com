@@ -101,7 +101,7 @@
         </div>
     </section>
 
-    <section id="articles">
+    <section id="articles" class="bg-light-blue">
         <div class="col-lg-10 col-12 mx-auto py-lg-5 py-3">
             <div class="row">
                 <div class="col-12 py-5">
@@ -147,7 +147,7 @@
     </section>
 
     
-    <section id="videos">
+    <section id="videos" class="bg-light-red">
         <div class="bg-light">
             <div class="col-lg-10 col-12 mx-auto">
                 <div class="row">
@@ -197,7 +197,7 @@
         @php wp_reset_postdata() @endphp
     </section>
 
-    <section id="quizzes">
+    <section id="quizzes" class="bg-light-green">
         <div class="bg-light">
             <div class="col-lg-10 col-12 mx-auto">
                 <div class="row">
