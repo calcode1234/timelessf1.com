@@ -68,11 +68,11 @@
                         </div>
 
                         <div class="row">
-                            <div class="col-lg-6 col-12 pl-0 mt-4">
+                            <div class="col-lg-6 col-10 pl-0 mt-4">
                                 @php wp_nav_menu(array( 'menu' => 'Footer Menu 2' ) ) @endphp
                             </div>
 
-                            <div class="col-lg-6 col-12 mt-4">
+                            <div class="col-lg-6 col-10 pl-0 mt-4">
                                 @php wp_nav_menu(array( 'menu' => 'Footer Menu 3' ) ) @endphp
                             </div>
                         </div>
