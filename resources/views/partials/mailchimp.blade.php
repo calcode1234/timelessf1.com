@@ -1,7 +1,7 @@
 <section id="mailchimp" class="bg-light">
     <div class="col-lg-10 col-12 mx-auto">
        <div class="row">
-            <div class="col-lg-6 col-12">
+            <div class="col-lg-7 col-12">
                 <!-- Begin Mailchimp Signup Form -->
                 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7_dtp.css" rel="stylesheet" type="text/css">
                 <style type="text/css">
@@ -12,7 +12,7 @@
                 <div id="mc_embed_signup">
                     <form action="https://timelessf1.us18.list-manage.com/subscribe/post?u=0427094c4b99ad3f50efc8b4f&amp;id=9818640a57" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                         <div id="mc_embed_signup_scroll" class="p-3">
-                        <h2 class="text-primary heading pb-4">{{__('Subscribe to the Newsletter') }}</h2>
+                        <h2 class="text-primary heading"><div class="heading-background bg-primary text-secondary">{{__('Subscribe to the Newsletter') }}</div></h2>
                         <div class="mc-field-group">
                             <label for="mce-NAME" class="my-3"><strong>Name <span class="asterisk">*</span></strong></label>
                             <input type="text" value="" name="NAME" class="required name bg-light" id="mce-NAME" placeholder="Your name...">
@@ -68,7 +68,7 @@
                 <!--End mc_embed_signup-->
             </div>
 
-            <div class="col-lg-6 col-12 py-5">
+            <div class="col-lg-5 col-12 py-5">
                 <div class="row">
                     @include('partials.twitter-timeline')
                 </div>

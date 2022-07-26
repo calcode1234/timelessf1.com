@@ -166,7 +166,7 @@
                     <div class="row">
                         <div class="col-12 heading">
                             <div class="row">
-                                <div class="col-lg-9 col-12 mb-lg-0 mb-3">
+                                <div class="col-lg-9 col-12 mb-lg-0 mb-3 pl-lg-0">
                                     <h2><strong class="bg-secondary text-white">Videos</strong></h2>
                                 </div>
                                 <div class="col-lg-3 col-12">
@@ -216,7 +216,7 @@
                     <div class="row">
                         <div class="col-12 heading">
                             <div class="row">
-                                <div class="col-lg-9 col-12 mb-lg-0 mb-3">
+                                <div class="col-lg-9 col-12 mb-lg-0 mb-3 pl-lg-0">
                                     <h2><strong class="bg-success text-white">Quizzes</strong></h2>
                                 </div>
                                 <div class="col-lg-3 col-12">
@@ -250,4 +250,6 @@
 
         @php wp_reset_postdata() @endphp
     </section>
+
+    @include('partials.mailchimp')
 @endif
