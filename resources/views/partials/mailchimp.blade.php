@@ -15,16 +15,16 @@
                         <h2 class="text-primary heading"><div class="heading-background bg-primary text-secondary">{{__('Subscribe to the Newsletter') }}</div></h2>
                         <div class="mc-field-group">
                             <label for="mce-NAME" class="my-3"><strong>Name <span class="asterisk">*</span></strong></label>
-                            <input type="text" value="" name="NAME" class="required name bg-light" id="mce-NAME" placeholder="Your name...">
+                            <input type="text" value="" name="NAME" class="required name" id="mce-NAME" placeholder="Your name...">
                         </div>
                         <div class="mc-field-group">
                             <label for="mce-EMAIL" class="my-3"><strong>Email  <span class="asterisk">*</span></strong>
                         </label>
-                            <input type="email" value="" name="EMAIL" class="required email bg-light" id="mce-EMAIL" placeholder="Your email...">
+                            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Your email...">
                         </div>
                         <div class="mc-field-group">
                             <label for="mce-HOW" class="my-3"><strong>How did you find Timeless F1? <span class="asterisk">*</span></strong></label>
-                            <select name="mce-HOW" id="mce-HOW" class="bg-light required">
+                            <select name="mce-HOW" id="mce-HOW" class="required">
                                 <option value="all">Please select an option...</option>
                                 <option value="search">Search engines</option>
                                 <option value="social">Social media</option>
@@ -32,7 +32,7 @@
                             </select>
                             <div class="select-group-append">
                                 <span class="select-group-text">
-                                    <i class="fas fa-arrow-circle-down text-primary"></i>
+                                    <i class="fas fa-arrow-circle-down text-secondary"></i>
                                 </span>
                             </div>
                         </div>
@@ -47,7 +47,7 @@
                                 <p>By ticking this box, you submit your details to Timeless F1.</p>
                             </div>
                             <div class="content__gdprLegal">
-                                <p>We use Mailchimp as our marketing platform. By clicking below to subscribe, you acknowledge that your information will be transferred to Mailchimp for processing. <a href="https://mailchimp.com/legal/terms" target="_blank">Learn more about Mailchimp's privacy practices here.</a></p>
+                                <p>We use Mailchimp as our marketing platform. By clicking below to subscribe, you acknowledge that your information will be transferred to Mailchimp for processing. <a href="https://mailchimp.com/legal/terms" target="_blank" class="text-secondary">Learn more about Mailchimp's privacy practices here.</a></p>
                             </div>
                         </div>
 
@@ -58,7 +58,7 @@
                             <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0427094c4b99ad3f50efc8b4f_9818640a57" tabindex="-1" value=""></div>
                                 <div class="optionalParent">
                                     <div class="my-3">
-                                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn m-0">
+                                        <input type="submit" value="Subscribe to Timeless F1" name="subscribe" id="mc-embedded-subscribe" class="btn m-0">
                                     </div>
                                 </div>
                         </div>
