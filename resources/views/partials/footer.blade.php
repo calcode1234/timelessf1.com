@@ -53,14 +53,14 @@
         <div class="row">
             <div class="bg-light-blue col-lg-6 col-12 section">
                 <div class="row">
-                    <div class="col-lg-8 col-12 mx-auto">
+                    <div class="col-lg-8 col-10 mx-auto">
                         @php wp_nav_menu(array( 'menu' => 'Footer Menu' ) ) @endphp
                     </div>
                 </div>
             </div>
             <div class="bg-light col-lg-6 col-12 section">
                 <div class="row">
-                    <div class="col-lg-8 col-12 mx-auto">
+                    <div class="col-lg-8 col-10 mx-auto">
                         <div class="row">
                             <div class="col-12 heading pl-0 pb-2">
                                 <h2><strong class="bg-primary text-secondary">External links</strong></h2>
