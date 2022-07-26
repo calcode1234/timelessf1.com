@@ -132,7 +132,7 @@
                             @php $query->the_post() @endphp
 
                             <div class="col-lg-4 col-12">
-                                <article class="grid bg-white my-3 py-3">
+                                <article class="grid bg-white my-3 py-3 py-lg-5">
                                     <h2 class="h5 text-danger pt-3 px-lg-4 px-3 pb-0"><strong>{{__('Article') }}</strong></h2>
                                     <h2 class="h4 text-secondary py-3 px-lg-4 px-3"><strong>@php the_title() @endphp</strong></h2>
                                     @if(has_post_thumbnail())
@@ -181,7 +181,7 @@
                             @php $video_query->the_post() @endphp
 
                             <div class="col-lg-4 col-12">
-                                <article class="grid bg-white my-3 py-3">
+                                <article class="grid bg-white my-3 py-3 py-lg-5">
                                     <h2 class="h5 text-danger pt-3 px-lg-4 px-3 pb-0"><strong>{{__('Video') }}</strong></h2>
                                     <h2 class="h4 text-secondary py-3 px-lg-4 px-3"><strong>@php the_title() @endphp</strong></h2>
                                     @if(has_post_thumbnail())
@@ -231,7 +231,7 @@
                             @php $quiz_query->the_post() @endphp
 
                             <div class="col-lg-4 col-12">
-                                <article class="grid bg-white my-3 py-3">
+                                <article class="grid bg-white my-3 py-3 py-lg-5">
                                     <h2 class="h5 text-danger pt-3 px-lg-4 px-3 pb-0"><strong>{{__('Quiz') }}</strong></h2>
                                     <h2 class="h4 text-secondary py-3 px-lg-4 px-3"><strong>@php the_title() @endphp</strong></h2>
                                     @if(has_post_thumbnail())
