@@ -58,7 +58,37 @@
                     </div>
                 </div>
             </div>
-            <div class="bg-light col-lg-6 col-12 section"></div>
+            <div class="bg-light col-lg-6 col-12 section">
+                <div class="row">
+                    <div class="col-lg-8 col-12 mx-auto">
+                        <div class="row">
+                            <div class="col-12 heading pl-0 pb-2">
+                                <h2><strong class="bg-primary text-secondary">External links</strong></h2>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-6 col-12 pl-0 mt-4">
+                                @php wp_nav_menu(array( 'menu' => 'Footer Menu 2' ) ) @endphp
+                            </div>
+
+                            <div class="col-lg-6 col-12 mt-4">
+                                @php wp_nav_menu(array( 'menu' => 'Footer Menu 3' ) ) @endphp
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="bottom" class="section bg-light-red">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="text-secondary text-center mb-0">{{__('Rights reserved at Timeless F1') }}</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
