@@ -40,13 +40,7 @@
         padding: 0 1rem;
 
         a {
-          @include media-breakpoint-up(lg) {
-            color: theme-color("secondary") !important;
-          }
-
-          @include media-breakpoint-down(md) {
-            color: theme-color("white") !important;
-          }
+          @extend .text-info;
 
           i {
             font-size: 1.5rem;
@@ -85,16 +79,6 @@
           }
         }
       }
-    }
-  }
-
-  #bottom {
-    @include media-breakpoint-up(lg) {
-      background: theme-color("white");
-    }
-
-    @include media-breakpoint-down(md) {
-      background: theme-color("secondary");
     }
   }
 }

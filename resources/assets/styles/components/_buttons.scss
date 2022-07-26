@@ -1,16 +1,11 @@
 .btn {
-  @extend .text-white;
+  @extend .text-secondary;
   @extend .font-weight-bold;
   @extend .w-100;
 
   display: inline-block !important;
   padding: 15px;
-  background: theme-color("secondary");
+  background: theme-color("primary");
   border: 0 !important;
   border-radius: 15px !important;
-
-  &.alternative {
-    @extend .text-secondary;
-    @extend .bg-white;
-  }
 }

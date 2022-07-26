@@ -1,14 +1,13 @@
 form {
   &#search-form {
-    border-top: 3px solid theme-color("secondary");
-    padding: 30px 0;
-    border-bottom: 3px solid theme-color("primary");
+    padding: 0 0 30px 0;
+    border-bottom: 3px solid theme-color("secondary");
   }
 
   input {
     &[type="search"] {
       color: #000;
-      border: 3px solid theme-color("secondary") !important;
+      border: 3px solid theme-color("primary") !important;
       border-radius: 40px !important;
       height: 55px;
       font-weight: 600;
@@ -29,7 +28,7 @@ form {
       border: 0;
 
       i {
-        background: theme-color("secondary");
+        background: theme-color("primary");
         color: #fff !important;
         padding: 10px;
         border-radius: 50%;

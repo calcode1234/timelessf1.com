@@ -14,7 +14,7 @@
             </div>
         </div>
     </div>
-    <div id="middle" class="section bg-primary">
+    <div id="middle" class="section bg-dark">
         <div class="container">
             <div class="row d-flex justify-content-center">
             @if(has_nav_menu('primary_navigation'))
