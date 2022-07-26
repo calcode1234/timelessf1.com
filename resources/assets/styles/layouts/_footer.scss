@@ -3,10 +3,14 @@
     &.menu {
       @extend .flex-column;
 
+      list-style-type: none;
+
       li {
+        @extend .mb-2;
+
         a {
           @extend .text-dark;
-          @extend .pb-3;
+          @extend .font-weight-bold;
 
           border-bottom: 3px solid theme-color("info");
         }
