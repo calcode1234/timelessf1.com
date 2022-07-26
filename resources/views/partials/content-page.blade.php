@@ -181,7 +181,7 @@
                             @php $video_query->the_post() @endphp
 
                             <div class="col-lg-4 col-12">
-                                <article class="grid bg-secondary my-3 py-3">
+                                <article class="grid bg-white my-3 py-3">
                                     <h2 class="h5 text-white pt-3 px-lg-4 px-3 pb-0"><strong>{{__('Video') }}</strong></h2>
                                     <h2 class="h4 text-white py-3 px-lg-4 px-3"><strong>@php the_title() @endphp</strong></h2>
                                     @if(has_post_thumbnail())
@@ -210,7 +210,7 @@
             </div> 
         </div>
 
-        <div class="lg-light-green">
+        <div class="bg-light-green">
             @if($quiz_query->have_posts())
                 <div class="col-lg-10 col-12 mx-auto py-lg-5 py-3">
                     <div class="row">
