@@ -103,7 +103,7 @@
     <section id="articles">
         <div class="col-lg-10 col-12 mx-auto py-lg-5 py-3">
             <div class="row">
-                <div class="col-12 py-5">
+                <div class="col-12">
                     @include('partials.adsense')
                 </div>
             </div>
@@ -140,8 +140,8 @@
                                         <img src="@php the_post_thumbnail_url() @endphp" alt="@php echo $alt @endphp" width="100%" height="auto">
                                     @endif
                                     <div class="my-3 mx-3"><a href="@php the_permalink() @endphp" class="btn" role="button" aria-label="Read more about the @php the_title() @endphp post">{{__('Read more') }}</a></div>
-                                </div>
-                            </article>
+                                </article>
+                            </div>
                         @endwhile
                     </div>
                 @endif
@@ -189,8 +189,8 @@
                                         <img src="@php the_post_thumbnail_url() @endphp" alt="@php echo $alt @endphp" width="100%" height="auto">
                                     @endif
                                     <div class="my-3 mx-3"><a href="@php the_permalink() @endphp" class="btn" role="button" aria-label="Watch the @php the_title() @endphp video">{{__('Watch video') }}</a></div>
-                                </div>
-                            </article>
+                                </article>
+                            </div>
                         @endwhile
                     </div>
                 </div>
@@ -239,8 +239,8 @@
                                         <img src="@php the_post_thumbnail_url() @endphp" alt="@php echo $alt @endphp" width="100%" height="auto">
                                     @endif
                                     <div class="my-3 mx-3"><a href="@php the_permalink() @endphp" class="btn" role="button" aria-label="Start the @php the_title() @endphp quiz">{{__('Start quiz') }}</a></div>
-                                </div>
-                            </article>
+                                </article>
+                            </div>
                         @endwhile
                     </div>
                 </div>
