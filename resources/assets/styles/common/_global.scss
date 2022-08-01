@@ -52,6 +52,7 @@ p {
 .heading {
   border-bottom: 3px solid theme-color("secondary");
 
+  h1,
   h2 {
     @include media-breakpoint-up(lg) {
       margin-top: 17px;
