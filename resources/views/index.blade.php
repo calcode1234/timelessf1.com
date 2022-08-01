@@ -10,7 +10,7 @@
                     <div class="col-12 heading pb-2">
                         <div class="row">
                             <div class="col-lg-9 col-12 mb-lg-0 mb-3 pl-lg-0">
-                                <h2><strong class="bg-info text-white">Articles</strong></h2>
+                                <h1 class="h2"><strong class="bg-info text-white">Articles</strong></h1>
                             </div> 
                         </div>
                     </div>
@@ -27,4 +27,3 @@
 </section>
 
 @endsection
-
