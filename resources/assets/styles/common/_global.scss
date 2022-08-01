@@ -38,6 +38,10 @@ h2 {
   }
 }
 
+p {
+  line-height: 30px;
+}
+
 .grid {
   strong {
     padding: 7.5px;
@@ -71,18 +75,6 @@ ul {
       a {
         i {
           font-size: 1.5rem;
-        }
-      }
-    }
-  }
-}
-
-.bg-light {
-  ul {
-    &.social {
-      li {
-        a {
-          @extend .text-secondary;
         }
       }
     }

@@ -10,6 +10,27 @@
   }
 }
 
+.page,
+.post {
+  p {
+    a {
+      @extend .text-dark;
+
+      border-bottom: 3px solid theme-color("secondary");
+    }
+  }
+
+  ul {
+    &.social {
+      li {
+        a {
+          @extend .text-secondary;
+        }
+      }
+    }
+  }
+}
+
 #about {
   img {
     border-radius: 50%;
