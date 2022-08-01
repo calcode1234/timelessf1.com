@@ -6,7 +6,7 @@
 
 @section('content')
   @while(have_posts()) @php the_post() @endphp
-    <section id="about" class="bg-light">
+    <section id="about" class="page bg-light">
         <div class="col-lg-10 col-12 mx-auto pt-lg-5 pb-lg-3 py-3">
             <div class="row">
                 <div class="col-lg-10 col-12 mx-auto">
