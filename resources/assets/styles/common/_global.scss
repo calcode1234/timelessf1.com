@@ -24,6 +24,11 @@ a {
   }
 }
 
+img {
+  object-fit: cover;
+  object-position: center;
+}
+
 h2 {
   &.heading {
     div.heading-background {
@@ -49,6 +54,35 @@ h2 {
 
     strong {
       padding: 15px;
+    }
+  }
+}
+
+ul {
+  &.social {
+    @extend .d-flex;
+    @extend .justify-content-center;
+
+    list-style-type: none;
+
+    li {
+      a {
+        i {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+}
+
+.bg-light {
+  ul {
+    &.social {
+      li {
+        a {
+          @extend .text-secondary;
+        }
+      }
     }
   }
 }
