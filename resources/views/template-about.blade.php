@@ -20,7 +20,7 @@
                 <div class="col-lg-10 col-12 mx-auto heading pb-2 mb-5">
                     <div class="row">
                         <div class="col-lg-9 col-12 mb-lg-0 mb-3 pl-lg-0">
-                            <h1><strong class="bg-primary text-secondary">About</strong></h1>
+                            <h1 class="h2"><strong class="bg-primary text-secondary">About</strong></h1>
                         </div>
                     </div>
                 </div>
@@ -90,5 +90,15 @@
             @endif
         </div>
     </section>
+
+    <div class="col-lg-10 col-12 mx-auto">
+        <div class="row">
+            <div class="col-12 py-5">
+                @include('partials.adsense')
+            </div>
+        </div> 
+    </div>
+
+     @include('partials.mailchimp')
   @endwhile
 @endsection

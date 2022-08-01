@@ -21,7 +21,7 @@
                         <div class="col-lg-8 col-12 py-3">
                             <article class="grid bg-white py-3 mx-lg-3 mx-0">
                                 <h1 class="h5 pt-3 px-lg-5 px-3 pb-0"><strong class="bg-info text-white">{{__('Article') }}</strong></h1>
-                                <h2 class="h1 text-secondary py-3 px-lg-5 px-3"><strong class="pl-0">@php the_title() @endphp</strong></h2>
+                                <h2 class="h3 text-secondary py-3 px-lg-5 px-3"><strong class="pl-0">@php the_title() @endphp</strong></h2>
                                 @if(has_post_thumbnail())
                                     @php $attachment_id = get_post_thumbnail_id() @endphp
                                     @php $alt = get_post_meta( $attachment_id, '_wp_attachment_image_alt', true ) @endphp
@@ -249,6 +249,15 @@
 
         @php wp_reset_postdata() @endphp
     </section>
+    @include('partials.mailchimp')
+@else
+    <div class="col-lg-10 col-12 mx-auto">
+        <div class="row">
+            <div class="col-12 py-5">
+                @include('partials.adsense')
+            </div>
+        </div> 
+    </div>
 
     @include('partials.mailchimp')
 @endif

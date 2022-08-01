@@ -24,4 +24,14 @@
             </div>
         </div>
     </section>
+
+    <div class="col-lg-10 col-12 mx-auto">
+        <div class="row">
+            <div class="col-12 py-5">
+                @include('partials.adsense')
+            </div>
+        </div> 
+    </div>
+
+    @include('partials.mailchimp')
 @endsection
