@@ -1,3 +1,15 @@
+.article {
+  .heading {
+    border-bottom: 3px solid theme-color("info");
+  }
+}
+
+.quiz {
+  .heading {
+    border-bottom: 3px solid theme-color("success");
+  }
+}
+
 .grid {
   border-radius: 20px;
 }
