@@ -112,7 +112,15 @@
         <div class="bg-light-blue">
             <div class="col-lg-10 col-12 mx-auto py-lg-5 py-3">
 
-                @if($query->have_posts())
+                @php $args_offset = array(
+                    'post_type' => 'post',
+                    'offset' => 1,
+                    'posts_per_page' => 3
+                ) @endphp
+                    
+                @php $query_offset = new WP_Query( $args_offset ) @endphp
+
+                @if($query_offset->have_posts())
                     <div class="row">
                         <div class="col-12 heading">
                             <div class="row">
@@ -127,8 +135,8 @@
                     </div>
 
                     <div class="row">
-                        @while($query->have_posts())
-                            @php $query->the_post() @endphp
+                        @while($query_offset->have_posts())
+                            @php $query_offset->the_post() @endphp
 
                             <div class="col-lg-4 col-12">
                                 <article class="grid bg-white my-lg-5 my-3 py-3">
@@ -160,7 +168,15 @@
         </div>
 
         <div class="bg-light-red">
-            @if($video_query->have_posts())
+            @php $video_args_offset = array(
+                'post_type' => 'videos',
+                'offset' => 1,
+                'posts_per_page' => 3
+            ) @endphp
+                    
+            @php $video_query_offset = new WP_Query( $video_args_offset ) @endphp
+
+            @if($video_query_offset->have_posts())
                 <div class="col-lg-10 col-12 mx-auto py-lg-5 py-3">
                     <div class="row">
                         <div class="col-12 heading">
@@ -176,8 +192,8 @@
                     </div>
 
                     <div class="row">
-                        @while($video_query->have_posts())
-                            @php $video_query->the_post() @endphp
+                        @while($video_query_offset->have_posts())
+                            @php $video_query_offset->the_post() @endphp
 
                             <div class="col-lg-4 col-12">
                                 <article class="grid bg-white my-lg-5 my-3 py-3">
@@ -210,7 +226,15 @@
         </div>
 
         <div class="bg-light-green">
-            @if($quiz_query->have_posts())
+            @php $quiz_args_offset = array(
+                'post_type' => 'quizzes',
+                'offset' => 1,
+                'posts_per_page' => 3
+            ) @endphp
+                    
+            @php $quiz_query_offset = new WP_Query( $quiz_args_offset ) @endphp
+
+            @if($quiz_query_offset->have_posts())
                 <div class="col-lg-10 col-12 mx-auto py-lg-5 py-3">
                     <div class="row">
                         <div class="col-12 heading">
@@ -226,8 +250,8 @@
                     </div>
 
                     <div class="row">
-                        @while($quiz_query->have_posts())
-                            @php $quiz_query->the_post() @endphp
+                        @while($quiz_query_offset->have_posts())
+                            @php $quiz_query_offset->the_post() @endphp
 
                             <div class="col-lg-4 col-12">
                                 <article class="grid bg-white my-lg-5 my-3 py-3">
