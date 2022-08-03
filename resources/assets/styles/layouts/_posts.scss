@@ -1,11 +1,13 @@
 .article {
-  .heading {
+  .heading,
+  form#search-form {
     border-bottom: 3px solid theme-color("info");
   }
 }
 
 .quiz {
-  .heading {
+  .heading,
+  form#search-form {
     border-bottom: 3px solid theme-color("success");
   }
 }
