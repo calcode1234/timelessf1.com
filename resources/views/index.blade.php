@@ -4,7 +4,15 @@
 
 <section id="articles">
     <div class="bg-light-blue">
-        <div class="col-lg-10 col-12 mx-auto py-lg-5 py-3">
+        <div class="col-lg-10 col-12 mx-auto pt-lg-5 pb-lg-3 py-3">
+            <div class="row">
+                <div class="col-lg-10 col-12 mx-auto">
+                    @include('partials.searchform')
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-10 col-12 mx-auto pb-lg-5 pt-0 pb-3">
             @if(have_posts())
                 <div class="row">
                     <div class="col-12 heading pb-2">
