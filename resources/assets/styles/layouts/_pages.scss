@@ -22,6 +22,22 @@
     }
   }
 
+  &.article {
+    p {
+      a {
+        border-bottom: 3px solid theme-color("info");
+      }
+    }
+  }
+
+  &.quiz {
+    p {
+      a {
+        border-bottom: 3px solid theme-color("success");
+      }
+    }
+  }
+
   ul {
     &.social {
       li {
