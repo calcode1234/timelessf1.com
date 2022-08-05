@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-6">
-                    <a class="screen-reader-text skip-link" href="#content">Skip to content</a>
+                    <a class="btn screen-reader-text skip-link" href="#content">Skip to content</a>
                 </div>
             </div>
 
