@@ -1,5 +1,5 @@
-<div class="col-lg-4 col-12">
-    <article class="grid bg-white my-lg-5 my-3 py-3">
+<div class="col-lg-4 col-sm-6 col-12 d-sm-flex flex-sm-column">
+    <article class="grid bg-white my-3 py-3 flex-sm-grow-1">
         <h2 class="h5 pt-3 px-lg-4 px-3 pb-0">
             @if(get_post_type() == 'post')
                 <strong class="bg-info text-white">{{__('Article') }}</strong>

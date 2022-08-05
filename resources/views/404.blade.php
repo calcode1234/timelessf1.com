@@ -4,7 +4,13 @@
   <section id="error" class="bg-light">
     <div class="col-lg-10 col-12 mx-auto py-lg-5 py-3">
         <div class="row">
-            <div class="col-12 heading">
+            <div class="col-lg-10 col-12 mx-auto">
+                @include('partials.searchform')
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12 col-11 mx-auto heading mt-3">
                 <div class="row">
                     <div class="col-lg-9 col-12 mb-lg-0 mb-3 pl-lg-0">
                         <h1 class="h2"><strong class="bg-primary text-secondary">Not Found</strong></h1>
@@ -17,12 +23,7 @@
         </div>
         <div class="row">
             <div class="col-lg-10 col-12 mx-auto">
-                <p class="my-4">Sorry, but the article, video, quiz or page you were looking for doesn't exist.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-10 col-12 mx-auto">
-                @include('partials.searchform')
+                <p class="text-center my-4">Sorry, but the article, video, quiz or page you were looking for doesn't exist.</p>
             </div>
         </div>
     </div>

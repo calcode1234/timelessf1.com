@@ -14,7 +14,7 @@
   @extend .text-secondary;
 
   &:focus {
-    @extend .bg-secondary;
-    @extend .text-primary;
+    background: theme-color("primary") !important;
+    color: theme-color("secondary") !important;
   }
 }
