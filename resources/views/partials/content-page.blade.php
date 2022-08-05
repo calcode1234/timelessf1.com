@@ -18,7 +18,7 @@
                     @while($query->have_posts())
                         @php $query->the_post() @endphp
 
-                        <div class="col-lg-8 col-sm-6 col-12 py-3">
+                        <div class="col-lg-8 col-sm-6 col-12 py-3 d-flex flex-column">
                             <article class="grid bg-white py-3 mx-lg-3 mx-0">
                                 <h1 class="h5 pt-3 px-lg-5 px-3 pb-0"><strong class="bg-info text-white">{{__('Article') }}</strong></h1>
                                 <h2 class="h3 text-secondary py-3 px-lg-5 px-3"><strong class="pl-0">@php the_title() @endphp</strong></h2>
@@ -101,7 +101,7 @@
     </section>
 
     <section id="articles">
-        <div class="col-lg-10 col-12 mx-auto py-lg-5 py-3">
+        <div class="col-lg-10 col-12 mx-auto py-5">
             <div class="row">
                 <div class="col-12">
                     @include('partials.adsense')
@@ -138,8 +138,8 @@
                         @while($query_offset->have_posts())
                             @php $query_offset->the_post() @endphp
 
-                            <div class="col-md-4 col-sm-6 col-12">
-                                <article class="grid bg-white my-lg-5 my-3 py-3">
+                            <div class="col-md-4 col-sm-6 col-12 d-sm-flex flex-sm-column">
+                                <article class="grid bg-white my-lg-5 my-3 py-3 flex-sm-grow-1">
                                     <h2 class="h5 pt-3 px-lg-4 px-3 pb-0"><strong class="bg-info text-white">{{__('Article') }}</strong></h2>
                                     <h2 class="h4 text-secondary py-3 px-lg-4 px-3"><strong class="pl-0">@php the_title() @endphp</strong></h2>
                                     @if(has_post_thumbnail())
@@ -195,8 +195,8 @@
                         @while($video_query_offset->have_posts())
                             @php $video_query_offset->the_post() @endphp
 
-                            <div class="col-md-4 col-sm-6 col-12">
-                                <article class="grid bg-white my-lg-5 my-3 py-3">
+                            <div class="col-md-4 col-sm-6 col-12 d-sm-flex flex-sm-column">
+                                <article class="grid bg-white my-lg-5 my-3 py-3 flex-sm-grow-1">
                                     <h2 class="h5 text-danger pt-3 px-lg-4 px-3 pb-0"><strong class="bg-secondary text-white">{{__('Video') }}</strong></h2>
                                     <h2 class="h4 text-secondary py-3 px-lg-4 px-3"><strong class="pl-0">@php the_title() @endphp</strong></h2>
                                     @if(has_post_thumbnail())
@@ -253,8 +253,8 @@
                         @while($quiz_query_offset->have_posts())
                             @php $quiz_query_offset->the_post() @endphp
 
-                            <div class="col-md-4 col-sm-6 col-12">
-                                <article class="grid bg-white my-lg-5 my-3 py-3">
+                            <div class="col-md-4 col-sm-6 col-12 d-sm-flex flex-sm-column">
+                                <article class="grid bg-white my-lg-5 my-3 py-3 flex-sm-grow-1">
                                     <h2 class="h5 text-danger pt-3 px-lg-4 px-3 pb-0"><strong class="bg-success text-white">{{__('Quiz') }}</strong></h2>
                                     <h2 class="h4 text-secondary py-3 px-lg-4 px-3"><strong class="pl-0">@php the_title() @endphp</strong></h2>
                                     @if(has_post_thumbnail())
