@@ -57,7 +57,7 @@
                         @php wp_nav_menu(array( 'menu' => 'Footer Menu' ) ) @endphp
                     </div>
                 </div>
-                <div class="bg-light col-lg-6 col-12 section px-5">
+                <div class="bg-light col-lg-6 col-12 section px-lg-5 py-lg-4 p-5">
                     <div class="heading pl-0 pb-2 mb-4">
                         <h2><strong class="bg-primary text-secondary">External links</strong></h2>
                     </div>

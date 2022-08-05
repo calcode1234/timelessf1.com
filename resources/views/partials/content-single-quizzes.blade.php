@@ -1,4 +1,4 @@
-<section class="page quiz bg-light-green">
+<article class="page quiz bg-light-green">
     <div class="col-lg-10 col-12 mx-auto pt-lg-5 pb-lg-3 py-3">
         <div class="row">
             <div class="col-lg-10 col-12 mx-auto">
@@ -9,7 +9,7 @@
 
     <div class="col-lg-10 col-12 mx-auto">
         <div class="row">
-            <div class="col-lg-10 col-12 mx-auto heading pb-2 mb-5">
+            <div class="col-lg-10 col-11 mx-auto heading pb-2 mb-5">
                 <div class="row">
                     <div class="col-lg-9 col-12 mb-lg-0 mb-3 pl-lg-0">
                         <h1 class="h2"><strong class="bg-success text-white">Quiz</strong></h1>
@@ -32,9 +32,9 @@
 
         @if(have_rows('related_quizzes'))
             <div class="row">
-                <div class="col-lg-10 col-12 mx-auto heading pb-2">
+                <div class="col-lg-10 col-11 mx-auto heading pb-2">
                     <div class="row">
-                        <div class="col-lg-9 col-12 mb-lg-0 mb-3 pl-lg-0">
+                        <div class="col-lg-9 col-11 mb-lg-0 mb-3 pl-lg-0">
                             <h2 class="h3"><strong class="bg-success text-white">Related videos</strong></h2>
                         </div>
                     </div>
@@ -50,7 +50,7 @@
                             @if( $quiz )
                                 @php $featured_image = get_the_post_thumbnail_url($quiz->ID) @endphp
 
-                                <div class="col-lg-4 col-12">
+                                <div class="col-lg-4 col-sm-6 col-12">
                                     <article class="grid bg-white my-lg-5 my-3 py-3">
                                         <h2 class="h5 pt-3 px-lg-4 px-3 pb-0"><strong class="bg-success text-white">{{__('Quiz') }}</strong></h2>
                                         <h2 class="h4 text-secondary py-3 px-lg-4 px-3"><strong class="pl-0">@php echo esc_html( $quiz->post_title ) @endphp</strong></h2>
@@ -68,7 +68,7 @@
                     </div>
         @endif
     </div>
-</section>
+</article>
 
 <div class="col-lg-10 col-12 mx-auto">
     <div class="row">

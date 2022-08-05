@@ -1,4 +1,4 @@
-<div class="col-lg-4 col-12">
+<div class="col-lg-4 col-sm-6 col-12">
     <article class="grid bg-white my-lg-5 my-3 py-3">
         <h2 class="h5 pt-3 px-lg-4 px-3 pb-0"><strong class="bg-secondary text-white">{{__('Video') }}</strong></h2>
         <h2 class="h4 text-secondary py-3 px-lg-4 px-3"><strong class="pl-0">@php the_title() @endphp</strong></h2>
