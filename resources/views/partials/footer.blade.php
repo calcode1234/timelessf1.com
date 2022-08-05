@@ -49,34 +49,21 @@
         </div>
     </div>
 
-    <div id="middle" class="col-12">
-        <div class="row">
-            <div class="bg-light-blue col-lg-6 col-12 section">
-                <div class="row">
-                    <div class="col-lg-8 col-10 mx-auto">
+    <div id="middle">
+        <div class="container">
+            <div class="row">
+                <div class="bg-light-blue col-lg-6 col-12 section pl-5">
+                    <div class="pl-lg-5 pl-0">
                         @php wp_nav_menu(array( 'menu' => 'Footer Menu' ) ) @endphp
                     </div>
                 </div>
-            </div>
-            <div class="bg-light col-lg-6 col-12 section">
-                <div class="row">
-                    <div class="col-lg-8 col-10 mx-auto">
-                        <div class="row">
-                            <div class="col-12 heading pl-0 pb-2">
-                                <h2><strong class="bg-primary text-secondary">External links</strong></h2>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-lg-6 col-10 pl-0 mt-4">
-                                @php wp_nav_menu(array( 'menu' => 'Footer Menu 2' ) ) @endphp
-                            </div>
-
-                            <div class="col-lg-6 col-10 pl-0 mt-4">
-                                @php wp_nav_menu(array( 'menu' => 'Footer Menu 3' ) ) @endphp
-                            </div>
-                        </div>
+                <div class="bg-light col-lg-6 col-12 section px-5">
+                    <div class="heading pl-0 pb-2 mb-4">
+                        <h2><strong class="bg-primary text-secondary">External links</strong></h2>
                     </div>
+
+                    @php wp_nav_menu(array( 'menu' => 'Footer Menu 2' ) ) @endphp
+                    @php wp_nav_menu(array( 'menu' => 'Footer Menu 3' ) ) @endphp
                 </div>
             </div>
         </div>

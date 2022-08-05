@@ -1,8 +1,8 @@
 @if(is_front_page())
     <section id="latest" class="bg-light">
-        <div class="col-lg-10 col-12 mx-auto py-lg-5 py-3">
+        <div class="col-lg-10 col-11 mx-auto py-lg-5 py-3">
             <div class="row">
-                <div class="col-lg-10 col-12 mx-auto">
+                <div class="col-lg-10 col-11 mx-auto">
                     @include('partials.searchform')
                 </div>
             </div>
@@ -122,7 +122,7 @@
 
                 @if($query_offset->have_posts())
                     <div class="row">
-                        <div class="col-12 heading">
+                        <div class="col-lg-12 col-11 mx-auto heading">
                             <div class="row">
                                 <div class="col-lg-9 col-12 mb-lg-0 mb-3 pl-lg-0">
                                     <h2><strong class="bg-info text-white">Articles</strong></h2>
@@ -179,7 +179,7 @@
             @if($video_query_offset->have_posts())
                 <div class="col-lg-10 col-12 mx-auto py-lg-5 py-3">
                     <div class="row">
-                        <div class="col-12 heading">
+                        <div class="col-lg-12 col-11 mx-auto heading">
                             <div class="row">
                                 <div class="col-lg-9 col-12 mb-lg-0 mb-3 pl-lg-0">
                                     <h2><strong class="bg-secondary text-white">Videos</strong></h2>
@@ -237,7 +237,7 @@
             @if($quiz_query_offset->have_posts())
                 <div class="col-lg-10 col-12 mx-auto py-lg-5 py-3">
                     <div class="row">
-                        <div class="col-12 heading">
+                        <div class="col-lg-12 col-11 mx-auto heading">
                             <div class="row">
                                 <div class="col-lg-9 col-12 mb-lg-0 mb-3 pl-lg-0">
                                     <h2><strong class="bg-success text-white">Quizzes</strong></h2>

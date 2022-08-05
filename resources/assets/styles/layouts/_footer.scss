@@ -45,4 +45,12 @@
       }
     }
   }
+
+  .menu-footer-menu-2-container,
+  .menu-footer-menu-3-container {
+    @include media-breakpoint-up(lg) {
+      width: 45%;
+      display: inline-block;
+    }
+  }
 }
