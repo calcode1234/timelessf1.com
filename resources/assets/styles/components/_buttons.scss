@@ -1,20 +1,20 @@
 .btn {
-  @extend .text-secondary;
+  @extend .text-white;
   @extend .font-weight-bold;
   @extend .w-100;
 
   display: inline-block !important;
   padding: 15px;
-  background: theme-color("primary");
+  background: theme-color("danger");
   border: 0 !important;
   border-radius: 15px !important;
 }
 
 .screen-reader-text {
-  @extend .text-secondary;
+  @extend .text-white;
 
   &:focus {
-    background: theme-color("primary") !important;
-    color: theme-color("secondary") !important;
+    background: theme-color("danger") !important;
+    color: theme-color("white") !important;
   }
 }

@@ -20,7 +20,7 @@
         @extend .text-white;
 
         @include media-breakpoint-up(lg) {
-          border-bottom: 3px solid theme-color("primary");
+          border-bottom: 3px solid theme-color("danger");
           padding: 0;
         }
 
@@ -34,7 +34,7 @@
         @extend .btn;
 
         a {
-          @extend .text-secondary;
+          @extend .text-white;
 
           border-bottom: 0;
         }
