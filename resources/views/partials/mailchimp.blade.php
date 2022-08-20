@@ -12,7 +12,7 @@
                 <div id="mc_embed_signup">
                     <form action="https://timelessf1.us18.list-manage.com/subscribe/post?u=0427094c4b99ad3f50efc8b4f&amp;id=9818640a57" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                         <div id="mc_embed_signup_scroll" class="p-3">
-                        <h2 class="text-primary heading"><div class="heading-background bg-primary text-secondary">{{__('Subscribe') }}</div></h2>
+                        <h2 class="heading"><div class="heading-background bg-danger text-white">{{__('Subscribe') }}</div></h2>
                         <div class="mc-field-group">
                             <label for="mce-NAME" class="my-3"><strong>Name <span class="asterisk">*</span></strong></label>
                             <input type="text" value="" name="NAME" class="required name" id="mce-NAME" placeholder="Your name...">
@@ -32,7 +32,7 @@
                             </select>
                             <div class="select-group-append">
                                 <span class="select-group-text">
-                                    <i class="fas fa-arrow-circle-down text-secondary"></i>
+                                    <i class="fas fa-arrow-circle-down text-danger"></i>
                                 </span>
                             </div>
                         </div>
@@ -47,7 +47,7 @@
                                 </fieldset>
                             </div>
                             <div class="content__gdprLegal">
-                                <p>We use Mailchimp as our marketing platform. By clicking below to subscribe, you acknowledge that your information will be transferred to Mailchimp for processing. <a href="https://mailchimp.com/legal/terms" target="_blank" class="text-secondary">Learn more about Mailchimp's privacy practices here.</a></p>
+                                <p>We use Mailchimp as our marketing platform. By clicking below to subscribe, you acknowledge that your information will be transferred to Mailchimp for processing. <a href="https://mailchimp.com/legal/terms" target="_blank">Learn more about Mailchimp's privacy practices here.</a></p>
                             </div>
                         </div>
 

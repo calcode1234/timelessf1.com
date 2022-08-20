@@ -9,10 +9,10 @@
         @extend .mb-2;
 
         a {
-          @extend .text-dark;
+          @extend .text-white;
           @extend .font-weight-bold;
 
-          border-bottom: 3px solid theme-color("info");
+          border-bottom: 3px solid theme-color("primary");
         }
       }
     }
@@ -27,7 +27,7 @@
         padding: 0 1rem;
 
         a {
-          @extend .text-primary;
+          @extend .text-white;
 
           i {
             font-size: 1.5rem;
@@ -41,6 +41,14 @@
       li {
         a {
           border-bottom: 3px solid theme-color("secondary");
+        }
+      }
+    }
+
+    &#menu-footer-menu-3 {
+      li {
+        a {
+          color: theme-color("primary");
         }
       }
     }

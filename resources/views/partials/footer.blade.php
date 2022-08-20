@@ -1,5 +1,5 @@
 <div id="site-footer" role="contentinfo">
-    <div id="top" class="section bg-dark">
+    <div id="top" class="section bg-primary">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -52,14 +52,14 @@
     <div id="middle">
         <div class="container">
             <div class="row">
-                <div class="bg-light-blue col-lg-6 col-12 section pl-5">
+                <div class="bg-danger col-lg-6 col-12 section pl-5">
                     <div class="pl-lg-5 pl-0">
                         @php wp_nav_menu(array( 'menu' => 'Footer Menu' ) ) @endphp
                     </div>
                 </div>
                 <div class="bg-light col-lg-6 col-12 section px-lg-5 py-lg-4 p-5">
                     <div class="heading pl-0 pb-2 mb-4">
-                        <h2><strong class="bg-primary text-secondary">External links</strong></h2>
+                        <h2><strong class="bg-danger text-white">External links</strong></h2>
                     </div>
 
                     @php wp_nav_menu(array( 'menu' => 'Footer Menu 2' ) ) @endphp
@@ -69,11 +69,11 @@
         </div>
     </div>
 
-    <div id="bottom" class="section bg-light-red">
+    <div id="bottom" class="section bg-light">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <p class="text-secondary text-center mb-0">{{__('Rights reserved at Timeless F1') }}</p>
+                    <p class="text-primary text-center mb-0">{{__('Rights reserved at Timeless F1') }}</p>
                 </div>
             </div>
         </div>

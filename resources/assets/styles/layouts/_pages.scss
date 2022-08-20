@@ -1,14 +1,20 @@
-#articles {
-  .heading,
-  form#search-form {
-    border-bottom: 3px solid theme-color("info");
-  }
-}
-
+#articles,
 #quizzes {
   .heading,
   form#search-form {
-    border-bottom: 3px solid theme-color("success");
+    border-bottom: 3px solid theme-color("danger");
+  }
+}
+
+#videos {
+  .heading,
+  form#search-form {
+    border-bottom: 3px solid theme-color("white");
+
+    .btn {
+      @extend .bg-white;
+      @extend .text-danger;
+    }
   }
 }
 
@@ -16,9 +22,9 @@
 .post {
   p {
     a {
-      @extend .text-dark;
+      @extend .text-primary;
 
-      border-bottom: 3px solid theme-color("secondary");
+      border-bottom: 3px solid theme-color("danger");
     }
   }
 

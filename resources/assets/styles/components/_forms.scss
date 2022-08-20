@@ -1,7 +1,7 @@
 form {
   &#search-form {
     padding: 0 0 30px 0;
-    border-bottom: 3px solid theme-color("secondary");
+    border-bottom: 3px solid theme-color("danger");
   }
 
   input {
@@ -28,8 +28,8 @@ form {
       border: 0;
 
       i {
-        background: theme-color("primary");
-        color: theme-color("secondary") !important;
+        background: theme-color("danger");
+        color: theme-color("white") !important;
         padding: 10px;
         border-radius: 50%;
         font-size: 1.25rem;
@@ -64,11 +64,16 @@ form {
       font-size: 1rem;
     }
 
+    label,
+    p {
+      @extend .text-primary;
+    }
+
     input,
     select {
       background: #f4f4f4;
       color: #000;
-      border: 3px solid theme-color("primary") !important;
+      border: 3px solid theme-color("danger") !important;
       border-radius: 40px;
       padding: 15px 0 !important;
       font-size: 1rem;
