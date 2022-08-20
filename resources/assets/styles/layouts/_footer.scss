@@ -1,4 +1,8 @@
 #site-footer {
+  .heading {
+    border-bottom: 3px solid theme-color("primary");
+  }
+
   ul {
     &.menu {
       @extend .flex-column;
@@ -41,8 +45,6 @@
       li {
         a {
           @extend .text-primary;
-
-          border-bottom: 3px solid theme-color("danger");
         }
       }
     }
