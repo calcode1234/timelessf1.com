@@ -1,7 +1,21 @@
 .article {
   .heading,
   form#search-form {
-    border-bottom: 3px solid theme-color("info");
+    border-bottom: 3px solid theme-color("danger");
+  }
+
+  form {
+    &#search-form {
+      label {
+        @extend .text-white;
+      }
+
+      input {
+        &[type="search"] {
+          border: 3px solid theme-color("danger") !important;
+        }
+      }
+    }
   }
 }
 

@@ -54,7 +54,9 @@
   &.article {
     p {
       a {
-        border-bottom: 3px solid theme-color("info");
+        @extend .text-white;
+
+        border-bottom: 3px solid theme-color("danger");
       }
     }
   }

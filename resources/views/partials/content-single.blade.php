@@ -1,4 +1,4 @@
-<article class="page article bg-light-blue">
+<article class="page article bg-primary">
     <div class="col-lg-10 col-12 mx-auto pt-lg-5 pb-lg-3 py-3">
         <div class="row">
             <div class="col-lg-10 col-12 mx-auto">
@@ -12,7 +12,7 @@
             <div class="col-lg-10 col-11 mx-auto heading pb-2 mb-5">
                 <div class="row">
                     <div class="col-lg-9 col-12 mb-lg-0 mb-3 pl-lg-0">
-                        <h1 class="h2"><strong class="bg-info text-white">Article</strong></h1>
+                        <h1 class="h2"><strong class="bg-danger text-white">Article</strong></h1>
                     </div>
                 </div>
             </div>
@@ -29,7 +29,7 @@
             <div class="col-sm-5 col-10 pl-0 mb-5">
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="text-dark"><strong>@php the_title() @endphp</strong></h2>
+                        <h2 class="text-white"><strong>@php the_title() @endphp</strong></h2>
                     </div>
                 </div>
 
@@ -40,7 +40,7 @@
                                 <div class="col-10 mx-auto heading pb-2 mb-4">
                                     <div class="row">
                                         <div class="col-lg-9 col-12 mb-lg-0 mb-3 pl-lg-0">
-                                            <h2 class="h3"><strong class="bg-info text-white">Contents</strong></h2>
+                                            <h2 class="h3"><strong class="bg-danger text-white">Contents</strong></h2>
                                         </div>
                                     </div>
                                 </div>
@@ -59,7 +59,7 @@
 
                                                         @php $link = get_sub_field('link') @endphp
 
-                                                        <li class="mb-3"><a class="text-dark" href="@php echo esc_url( $link['url'] ) @endphp" target="@php echo esc_attr( $link['target'] ) @endphp"><strong>@php echo esc_html( $link['title'] ) @endphp</strong></a></li>
+                                                        <li class="mb-3"><a class="text-primary" href="@php echo esc_url( $link['url'] ) @endphp" target="@php echo esc_attr( $link['target'] ) @endphp"><strong>@php echo esc_html( $link['title'] ) @endphp</strong></a></li>
                                                     @endwhile
                                                 </ol>
                                             </div>
