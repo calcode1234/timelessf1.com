@@ -36,10 +36,10 @@
                 </div>
             @endif
 
-            <div class="col-lg-3 col-6 d-flex align-items-center">
+            <div class="col-lg-3 col-6 d-flex justify-content-lg-center align-items-center">
             <a href="@php echo esc_url( home_url( '/' ) ) @endphp" tabindex="-1">
                 @if($logo)
-                    <img src="@php echo esc_url($logo['url']) @endphp" alt="@php echo esc_attr($logo['alt']) @endphp" width="100%" height="auto">
+                    <img src="@php echo esc_url($logo['url']) @endphp" alt="@php echo esc_attr($logo['alt']) @endphp" width="127.5px" height="100px">
                 @else
                     {{ get_bloginfo('name', 'display') }}
                 @endif
