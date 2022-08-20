@@ -71,7 +71,7 @@
     &.social {
       li {
         a {
-          @extend .text-secondary;
+          @extend .text-danger;
         }
       }
     }
