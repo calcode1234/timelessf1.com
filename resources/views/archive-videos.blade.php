@@ -2,7 +2,7 @@
 
 @section('content')
     <section id="videos">
-        <div class="bg-light-red">
+        <div class="bg-danger">
             <div class="col-lg-10 col-12 mx-auto pt-lg-5 pb-lg-3 py-3">
                 <div class="row">
                     <div class="col-lg-10 col-12 mx-auto">

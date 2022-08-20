@@ -3,7 +3,7 @@
 @section('content')
 
 <section id="articles">
-    <div class="bg-light-blue">
+    <div class="bg-primary">
         <div class="col-lg-10 col-12 mx-auto pt-lg-5 pb-lg-3 py-3">
             <div class="row">
                 <div class="col-lg-10 col-12 mx-auto">
@@ -18,7 +18,7 @@
                     <div class="col-lg-12 col-11 mx-auto heading pb-2">
                         <div class="row">
                             <div class="col-lg-9 col-12 mb-lg-0 mb-3 pl-lg-0">
-                                <h1 class="h2"><strong class="bg-info text-white">Articles</strong></h1>
+                                <h1 class="h2"><strong class="bg-danger text-white">Articles</strong></h1>
                             </div> 
                         </div>
                     </div>

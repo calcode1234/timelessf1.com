@@ -6,6 +6,22 @@
   }
 }
 
+#article {
+  form {
+    &#search-form {
+      label {
+        @extend .text-white;
+      }
+
+      input {
+        &[type="search"] {
+          border: 3px solid theme-color("danger") !important;
+        }
+      }
+    }
+  }
+}
+
 #videos {
   .heading,
   form#search-form {
