@@ -2,7 +2,7 @@
 <html {!! get_language_attributes() !!}>
   @include('partials.head')
   <body @php body_class() @endphp>
-    <div class="container-lg bg-white border border-white px-0">
+    <div class="col-lg-9 mx-lg-auto bg-white border border-white px-0">
       @php do_action('get_header') @endphp
       @include('partials.header')
       <div class="wrap" role="document">

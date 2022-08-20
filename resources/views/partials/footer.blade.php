@@ -50,7 +50,7 @@
     </div>
 
     <div id="middle">
-        <div class="container">
+        <div class="col-12">
             <div class="row">
                 <div class="bg-danger col-lg-6 col-12 section pl-5">
                     <div class="pl-lg-5 pl-0">
