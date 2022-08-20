@@ -11,6 +11,8 @@
         a {
           @extend .text-white;
           @extend .font-weight-bold;
+
+          border-bottom: 3px solid theme-color("primary");
         }
       }
     }
@@ -34,14 +36,7 @@
       }
     }
 
-    &#menu-footer-menu-2 {
-      li {
-        a {
-          border-bottom: 3px solid theme-color("primary");
-        }
-      }
-    }
-
+    &#menu-footer-menu-2,
     &#menu-footer-menu-3 {
       li {
         a {
