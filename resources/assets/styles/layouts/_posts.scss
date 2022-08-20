@@ -43,7 +43,17 @@
 .quiz {
   .heading,
   form#search-form {
-    border-bottom: 3px solid theme-color("success");
+    border-bottom: 3px solid theme-color("primary");
+  }
+
+  form {
+    &#search-form {
+      input {
+        &[type="search"] {
+          border: 3px solid theme-color("primary") !important;
+        }
+      }
+    }
   }
 }
 
