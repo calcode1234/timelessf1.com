@@ -28,8 +28,9 @@ form {
       border: 0;
 
       i {
+        @extend .text-white;
+
         background: theme-color("danger");
-        color: theme-color("white") !important;
         padding: 10px;
         border-radius: 50%;
         font-size: 1.25rem;
@@ -42,6 +43,10 @@ form {
   width: 100% !important;
   font-family: "Rubik", Arial, sans-serif !important;
   font-size: 14px !important;
+
+  .heading {
+    border-bottom: 3px solid theme-color("danger");
+  }
 
   h2 {
     font-size: 2rem !important;
