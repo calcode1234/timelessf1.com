@@ -17,7 +17,7 @@
                         <div class="col-lg-12 col-11 mx-auto heading pb-2">
                             <div class="row">
                                 <div class="col-lg-9 col-12 mb-lg-0 mb-3 pl-lg-0">
-                                    <h1 class="h2"><strong class="bg-success text-white">Quizzes</strong></h1>
+                                    <h1 class="h2"><strong class="bg-danger text-white">Quizzes</strong></h1>
                                 </div> 
                             </div>
                         </div>
