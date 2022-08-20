@@ -17,7 +17,7 @@
                         <div class="col-lg-12 col-11 mx-auto heading pb-2">
                             <div class="row">
                                 <div class="col-lg-9 col-12 mb-lg-0 mb-3 pl-lg-0">
-                                    <h1 class="h2"><strong class="bg-secondary text-white">Videos</strong></h1>
+                                    <h1 class="h2"><strong class="bg-white text-danger">Videos</strong></h1>
                                 </div> 
                             </div>
                         </div>
