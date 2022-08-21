@@ -1,4 +1,4 @@
-<section id="mailchimp" class="bg-light">
+<section id="mailchimp" class="bg-danger">
     <div class="col-lg-10 col-12 mx-auto">
        <div class="row">
             <div class="col-lg-7 col-12">
