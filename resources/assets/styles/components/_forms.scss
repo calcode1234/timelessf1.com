@@ -11,7 +11,7 @@ form {
   input {
     &[type="search"] {
       color: #000;
-      border: 3px solid theme-color("primary") !important;
+      border: 3px solid theme-color("danger") !important;
       border-radius: 40px !important;
       height: 55px;
       font-weight: 600;
