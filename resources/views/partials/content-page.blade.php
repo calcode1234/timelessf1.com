@@ -1,5 +1,5 @@
 @if(is_front_page())
-    <section id="latest" class="bg-light">
+    <section id="latest" class="bg-danger">
         <div class="col-lg-10 col-11 mx-auto py-lg-5 py-3">
             <div class="row">
                 <div class="col-lg-10 col-11 mx-auto">
@@ -225,7 +225,7 @@
             </div> 
         </div>
 
-        <div>
+        <div class="bg-light">
             @php $quiz_args_offset = array(
                 'post_type' => 'quizzes',
                 'offset' => 1,
@@ -254,7 +254,7 @@
                             @php $quiz_query_offset->the_post() @endphp
 
                             <div class="col-md-4 col-sm-6 col-12 d-sm-flex flex-sm-column">
-                                <article class="grid bg-light my-lg-5 my-3 py-3 flex-sm-grow-1">
+                                <article class="grid bg-white my-lg-5 my-3 py-3 flex-sm-grow-1">
                                     <h2 class="h5 pt-3 px-lg-4 px-3 pb-0"><strong class="bg-danger text-white">{{__('Quiz') }}</strong></h2>
                                     <h2 class="h4 text-primary py-3 px-lg-4 px-3"><strong class="pl-0">@php the_title() @endphp</strong></h2>
                                     @if(has_post_thumbnail())
